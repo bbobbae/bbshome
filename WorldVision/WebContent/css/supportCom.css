@@ -1,0 +1,140 @@
+div#contentWrap{
+    width: 80%; height: auto; 
+    margin: 0 auto;
+}
+h3#contentTitle{
+    height: 150px; width: 80%; 
+    margin: 0 auto;  
+    font-size: 2.3rem; 
+    color: #ff6600; 
+    padding-top: 65px;
+    box-sizing: border-box; 
+    border-bottom:1px solid rgb(207,207,207);
+}
+
+/* step */
+div#step{
+    height: 140px; width: 600px;
+    box-sizing: border-box; 
+    margin: 90px auto 100px auto;
+}
+div#step ul{
+    width: 100%; height: 40px;
+    margin: 0 auto;
+}
+div#step ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+div#step ul li span{
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #222;
+}
+div#spon {
+    width: 80%; height: auto;
+    margin: 0 auto;
+}
+
+div.supTitle{
+	width:90%;
+    margin: 100px auto 10px ;
+    color:#444;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/*컨텐츠*/
+div#textWrap{
+	margin:0 auto;
+	width:75%; height:auto;
+}
+div#infoArea{
+	padding:20px;
+	margin:80px 0;
+	margin-top:80px;
+	color:#333;
+	text-align:center;
+}
+p#titleTop{font-size:1.7rem; font-weight: bold;}
+p#titleTop span{color:#ff6600;}
+p#titleMiddle{
+	font-weight: bold;
+	font-size:1.3rem;
+	margin-top:30px;
+	color:#666;
+}
+
+p#tableName{
+	font-weight:bold;
+	width:90%; 
+	color:#333; 
+	margin:0 auto;
+	font-size:1.1rem;
+}
+
+table#supTable{
+	border-spacing: 0;
+	margin:10px auto 0 auto;
+    width: 90%;
+    border-top:1px solid #999;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+table#supTable tr th{
+    width: 20%;
+    height: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+table#supTable tr td{
+    padding-left: 1%;
+}
+
+table#supTable tr th, table#supTable tr td{
+	 border-bottom: 1px solid #d5d5d5;
+}
+
+p#tableEx{
+	width:90%;
+	color:#D24804;
+	font-size:0.8rem;
+	margin:20px auto 0 auto;
+}
+
+/*버튼*/
+a#mainBtn{
+	display:block;
+	width:300px; height:50px;
+	background-color: #ff6600;
+	color:white;
+	margin:100px auto;
+	text-align:center;
+	line-height:50px;	
+	font-size:16px;
+	transition: all 0.4s ease 0s;
+}
+
+a#mainBtn:hover{
+	background-color:black;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

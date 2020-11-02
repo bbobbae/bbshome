@@ -1,0 +1,469 @@
+/*공용 */
+
+  /* newsletter */
+    div#newsletter{
+        width: 100%; 
+        padding: 2% 0 8% 0;
+    }
+    div#newsletterBox{
+        text-align: center;
+        position: relative;
+    }
+    div#newsletterBox .fas{
+        position: absolute;
+        right: 5%; top: 27%;
+        color: #333;
+        font-size: 2.4rem;
+    }
+    
+    div#newsletterBox .topTitle{
+        margin: 2% 0;
+    }
+    .slider {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .slider .slider__inner {
+        display: flex;
+        position: relative;
+        align-items: center;
+        max-width: 900px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .slider .slider__inner .slider__item {
+        position: absolute;
+        height: 10rem;
+        width: 7rem;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        z-index: -1;
+        /* pointer-events: none; */
+        user-select: none;
+    }
+
+    .slider__item a{color: #333;}
+    .slider__item a:visited{color: #333;}
+    .slider .slider__inner .slider__item-trigger-next {
+        left: 15%;
+        transform: translateX(-50%);
+    }
+
+    .slider .slider__inner .slider__item-trigger-previous {
+        left: 85%;
+        transform: translateX(-50%);
+    }
+
+    .slider .slider__inner .slider__item-selected {
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+        height: 22rem;
+        opacity: 1;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 16rem;
+        z-index: 2;
+    }
+
+    .slider .slider__inner .slider__item-previous, .slider .slider__inner .slider__item-next {
+        height: 16rem;
+        opacity: 1;
+        width: 12rem;
+        z-index: 1;
+    }
+
+    .slider .slider__inner .slider__item-last, .slider .slider__inner .slider__item-first {
+        opacity: .4;
+        z-index: 0;
+    }
+
+    .slider .slider__inner .slider__item-previous {
+        left: 26%;
+        transform: translateX(-50%);
+    }
+
+    .slider .slider__inner .slider__item-next {
+        left: 74%;
+        transform: translateX(-50%);
+    }
+
+    .slider .slider__inner .slider__item-first {
+        left: 9%;
+        transform: translateX(-50%);
+    }
+
+    .slider .slider__inner .slider__item-last {
+        left: 91%;
+        transform: translateX(-50%);
+    }
+
+    .slider .slider__inner .slider__item-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .slider .slider__inner .slider__item-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .slider .slider__inner .slider__item-datas {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 0.6rem 0;
+        background-color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        font-family: 'Arial';
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1.2rem;
+    }
+    
+    .slider .slider__controls {
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .slider .slider__controls-previous, .slider .slider__controls-next {
+        border: 0;
+        cursor: pointer;
+        font-size: 50px;
+        background-color: transparent;
+        color: rgba(0, 0, 0, 0.75);
+        padding: 0;
+    }
+
+    .slider .slider__controls-previous:focus, .slider .slider__controls-next:focus {
+        outline: none;
+    }
+
+
+/*----------------------- PC버전-------------------- */
+@media screen and (min-width:750px){
+    div#storyWrap{
+        width: 100%;  
+        height: auto;
+        margin: 0 auto 4% auto;
+        text-align: center;
+        padding: 6% 0;
+    }
+     
+    div p.topTitle{
+        text-align: center;
+        font-size: 3rem; 
+        color: #333;
+        font-weight: bold;
+        /* animation: inText 1.2s .3 both; */
+    }
+    div p.smallTitle{
+        margin:2% 0 6% 0;
+        line-height: 2.8rem; 
+        font-size: 1.5rem; 
+        color: #333;
+        animation: inText 1s .7s both;
+    }
+
+    /* 슬라이드 레이아웃 */
+    div#slideWrap{
+        width: 80%;
+        margin: 0 auto;
+        /* position: relative; */
+    }
+
+    div#storyWrap .bx-wrapper{margin:0 auto; position: relative;}
+
+    div#storyWrap .story li{width: 100%; height: 100%;}
+
+    div#storyWrap .story li img{
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* 버튼 */
+    div#storyWrap .bx-controls-direction{font-size: 3.3rem}
+    div#storyWrap .bx-controls-direction a{
+        position: absolute; top: 40%; 
+        display: block; 
+        width: 2.2rem; height: 4.9rem; 
+        overflow: hidden; 
+        color: #333;
+    }
+    
+    div#storyWrap .bx-controls-direction .bx-prev{left: -6%; content: "\f053"; font-family: fontawesome;}
+    div#storyWrap .bx-controls-direction .bx-next{right:-6%; content: "\f054"; font-family: fontawesome;}
+
+    div#storyWrap .bx-controls-direction .bx-prev:before{content: "\f053"; font-family: fontawesome;}
+    div#storyWrap .bx-controls-direction .bx-next:before{content: "\f054"; font-family: fontawesome;}
+
+    div#storyWrap .story div{
+        position: absolute;
+        top:0; left: 0; 
+        color:white; 
+        width:100%; 
+        height: 100%;
+        padding: 24% 0 4% 2%;
+        box-sizing: border-box;
+        transition: all 0.5s ease 0s; 
+        background-color: rgba(0, 0, 0, 0.185);
+    }
+    div#storyWrap .story div:hover{ 
+        box-shadow:inset 0 0 300px 200px rgba(0, 0, 0, 0.712);
+        text-decoration: underline;
+    }
+    div#storyWrap .story div:hover p{ animation: inText 1s .2s both; }
+
+    div#storyWrap .story div p:first-child{font-size:1.3rem;}
+    div#storyWrap .story div p:last-child{font-size:1.7rem; padding-top: 1%;}
+    
+    @keyframes inText {
+        0%{opacity: 0; transform: translateY(20px);}
+        100%{opacity: 1; transform: translateY(0);}
+    } 
+
+
+    /* news */
+    div#news{
+        width: 100%; height: 560px; 
+        margin: 9% auto;
+    }
+    div#news div#titleBox{ 
+        margin: 0 auto;
+        width: 90%; height: auto;
+        text-align: center; 
+        position: relative;
+    }
+
+    div#titleBox a{
+        position: absolute; 
+        top: 0; right:0%;
+        color: #333;
+        font-size: 2.4rem;
+    }
+    
+    div#newsBox{
+        margin: 0 auto;
+        width:60%; height: auto;    
+        background-color: rgb(59, 59, 39);
+    }
+    div#newsBox ul{margin: 0 auto;}
+    div#newsBox ul li{
+        display: block;
+        width: 25%; height: 21.6rem;
+        float: left;  
+        border: 1px solid rgb(172, 172, 172);
+        box-sizing: border-box;  
+        border-left: none;  
+        
+    }
+    div#newsBox ul li:first-child{margin-left: 0;}
+
+    div#newsBox ul li a{
+        white-space: normal;
+        text-align: left;
+        word-wrap: break-word;
+        width: 100%; height: 20.1rem;
+        box-sizing: border-box;
+        padding: 1rem; 
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 9;
+        -webkit-box-orient: vertical;        
+    }
+    div#newsBox ul li#newsLeft{   border: 1px solid rgb(172, 172, 172);}
+
+    div#newsBox ul li a{color: #333;}
+    div#newsBox ul li a:hover p:last-child{text-decoration: underline;}
+    div#newsBox ul li:hover{
+        box-shadow: 3px 3px 3px 3px #d8d8d8;
+    }
+    div#newsBox ul li a:visited{ color:#333;}
+    div#newsBox ul li a p:first-child{font-size: 1.6rem; font-weight: bold;}    
+    div#newsBox ul li a p:nth-child(2){
+        padding-bottom: 5px;
+        font-size: 1.1rem; padding-top: 5px;
+    }
+    div#newsBox ul li a p:nth-child(3){font-size: 1rem; line-height: 1.7rem;}
+   
+
+
+} 
+
+
+
+
+
+
+/*----------------------- mobile 버전-------------------- */
+@media screen and (max-width:749px){
+    div#storyWrap{
+        width: 100%; height: auto;
+        margin: 7% auto 22% auto;
+        text-align: center;
+        padding: 6% 0;
+    }
+     
+    div p.topTitle{
+        text-align: center;
+        font-size: 3rem; 
+        color: #333;
+        font-weight: bold;
+        /* animation: inText 1.2s .3 both; */
+    }
+    div p.smallTitle{
+        margin:2% 0 6% 0;
+        line-height: 2.8rem; 
+        font-size: 1.5rem; 
+        color: #333;
+        animation: inText 1s .7s both;
+    }
+
+    /* 슬라이드 레이아웃 */
+    div#slideWrap{
+        width: 80%;
+        margin: 0 auto;
+        /* position: relative; */
+    }
+
+    div#storyWrap .bx-wrapper{margin:0 auto; position: relative;}
+
+    div#storyWrap .story li{width: 100%; height: 100%;}
+
+    div#storyWrap .story li img{
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* 버튼 */
+    div#storyWrap .bx-controls-direction{font-size: 3.3rem}
+    div#storyWrap .bx-controls-direction a{
+        position: absolute; top: 40%; 
+        display: block; 
+        width: 2.2rem; height: 4.9rem; 
+        overflow: hidden; 
+        color: #333;
+    }
+    
+    div#storyWrap .bx-controls-direction .bx-prev{left: -6%; content: "\f053"; font-family: fontawesome;}
+    div#storyWrap .bx-controls-direction .bx-next{right:-6%; content: "\f054"; font-family: fontawesome;}
+
+    div#storyWrap .bx-controls-direction .bx-prev:before{content: "\f053"; font-family: fontawesome;}
+    div#storyWrap .bx-controls-direction .bx-next:before{content: "\f054"; font-family: fontawesome;}
+
+    div#storyWrap .story div{
+        position: absolute;
+        top:0; left: 0; 
+        color:white; 
+        width:100%; 
+        height: 100%;
+        padding: 24% 0 4% 2%;
+        box-sizing: border-box;
+        transition: all 0.5s ease 0s; 
+        background-color: rgba(0, 0, 0, 0.185);
+        box-shadow:inset 0 0 300px 200px rgba(0, 0, 0, 0.418);
+        text-decoration: underline;
+    }
+   
+    div#storyWrap .story div p:first-child{font-size:1.3rem;}
+    div#storyWrap .story div p:last-child{font-size:1.7rem; padding-top: 1%;}
+    
+    @keyframes inText {
+        0%{opacity: 0; transform: translateY(20px);}
+        100%{opacity: 1; transform: translateY(0);}
+    } 
+
+
+
+
+    /* 공지사항 */
+    div#news{
+        width: 90%; height: 400px;
+        margin: 9% auto;
+        padding-bottom: 35%;
+    }
+    div#news div#titleBox{ 
+        margin: 0 auto;
+        width: 70%; height: auto;
+        text-align: center; 
+        position: relative;
+    }
+
+    div p.topTitle{
+        text-align: center;
+        font-size: 2.1rem; 
+        color: #333;
+        font-weight: bold;
+    }
+
+    div#news p.smallTitle{
+        margin: 2% auto 6%;
+        font-size: 1.5rem; 
+        color: #333;
+        animation: inText 1s .7s both;
+    }
+
+
+    div#titleBox a{
+        position: absolute; 
+        top: 0; right: -18%;
+        color: #333;
+        font-size: 2.4rem;
+    }
+    div#newsBox ul{margin: 0 auto; ;}
+    div#newsBox ul li{
+        display: block;
+        width: 50%; height: 18.8rem;
+        float: left;  
+        border: 1px solid black;
+        box-sizing: border-box;        
+    }
+
+    div#newsBox ul li:nth-child(1),#newsBox ul li:nth-child(3){
+        border-right: none;
+    }
+    div#newsBox ul li:nth-child(2),#newsBox ul li:nth-child(1){
+        border-bottom: none;
+    }
+    
+
+    div#newsBox ul li a{
+        white-space: normal;
+        text-align: left;
+        word-wrap: break-word;
+        width: 100%; height: 17.5rem;
+        box-sizing: border-box;
+        padding: 1rem; 
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical; 
+        color: #333;       
+    }
+   
+    div#newsBox ul li a:visited{ color:#333;}
+
+    div#newsBox ul li a p:first-child{font-size: 1.6rem; font-weight: bold;}
+    
+    div#newsBox ul li a p:nth-child(2){
+        padding-bottom: 5px;
+        font-size: 1.2rem; padding-top: 5px;
+    }
+    div#newsBox ul li a p:nth-child(3){
+        font-size: 1.2rem; line-height: 1.7rem;
+    }
+
+}

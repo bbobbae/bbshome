@@ -1,0 +1,68 @@
+/* --------------------------PC 버젼----------------------------*/
+
+@media screen and (min-width:750px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 80%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 80%; height: 150px;  
+        margin: 0 auto;  
+        font-size: 30px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+	div#controlBar{
+		margin:0 auto;
+		width:70%;
+		padding: 30px 65px;
+    	text-align:center;
+	}
+
+	div#controlBar a{
+		display:block;
+	}
+
+
+
+
+
+
+
+
+}
+
+/* --------------------------반응형 버젼 ----------------------------*/
+
+@media screen and (max-width:749px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 90%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 100%; height: auto;  
+        margin: 0 auto;  
+        font-size: 28px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        padding-bottom: 6px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+}

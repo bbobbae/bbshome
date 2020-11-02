@@ -1,0 +1,126 @@
+/* --------------------------PC 버젼 ----------------------------*/
+
+@media screen and (min-width:750px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 90%;
+        height: auto; 
+        margin: 0 auto;
+    }
+    
+    h3#contentTitle{
+        height: 200px; width: 85%; 
+        font-size: 35px; 
+        padding-top: 80px;
+        margin: 0 auto; 
+        color: #ff6600; 
+        box-sizing: border-box
+        }
+
+	div#idInfo{
+		margin:0 auto;
+		width:70%;
+		padding: 30px 65px;
+    	font-size:20px; font-weight:bold;
+    	color: #333;
+   	 	vertical-align: top;
+    	background: #f9f9f9;
+    	margin-bottom: 60px;
+    	text-align:center;
+	}
+	
+	div#idInfo span{ 
+	    padding: 0px 30px;
+	    color: #ff5a11;
+	    background: #fcefbd;
+	}
+	
+	div.more{
+		margin: 110px auto;
+		width:270px;
+	}
+	
+	div.more a{
+		display:inline-block;
+		width:120px; height:40px;
+		text-align:center;
+		line-height:40px;
+		font-size:14px;
+	}
+	div.more a#transfer1{
+		background-color:#ff6600;
+		color:white;
+		border:1px solid #ff6600;
+	}
+	div.more a#transfer2{
+		background-color:white;
+		color:#333;
+		border:1px solid #333;	
+		margin-left:20px;
+	}
+}
+
+
+
+
+/* -----------------------모바일버젼------------------------  */
+
+
+@media screen and (max-width:749px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 100%;
+        height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 100%;  height: auto;  
+        font-size:18px; 
+        margin: 13% auto 13% 7%; 
+        color: #ff6600; 
+        box-sizing: border-box
+    }
+	div#idInfo{
+		margin:0 auto;
+		width:70%;
+		padding: 6% 8%;
+    	font-size:15px; font-weight:bold;
+    	color: #333;
+   	 	vertical-align: top;
+    	background: #f9f9f9;
+    	text-align:center;
+	}
+	
+	div#idInfo span{ 
+	    padding: 0 11%;
+	    color: #ff5a11;
+	    background: #fcefbd;
+	}
+	
+	div.more{
+		width: 100%; 
+		text-align:center;
+		margin:15% 0;
+	}
+	
+	div.more a{
+		display:inline-block;
+		width:35%; height:30px;
+		max-width:140px; min-width:90px;
+		text-align:center;
+		line-height:30px;
+		font-size:12px;
+	}
+	div.more a#transfer1{
+		background-color:#ff6600;
+		color:white;
+		border:1px solid #ff6600;
+	}
+	div.more a#transfer2{
+		background-color:white;
+		color:#333;
+		border:1px solid #333;	
+		margin-left:20px;
+	}
+   
+}

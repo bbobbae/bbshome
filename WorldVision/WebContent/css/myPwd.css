@@ -1,0 +1,113 @@
+/* --------------------------PC 버젼----------------------------*/
+
+@media screen and (min-width:750px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 80%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 80%; height: 150px;  
+        margin: 0 auto;  
+        font-size: 30px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+	div#innerBox{
+		width:440px;
+		height:210px;
+		border: 5px solid rgb(237,237,237);
+		margin: 90px auto;
+		padding :30px;
+		color:#666;
+		position:relative;
+	}
+	
+	div#innerBox p{
+		font-size: 13px;
+		padding-bottom:40px;
+		border-bottom: 1px solid rgb(227,227,227);
+	}
+
+    div#ipBox{
+    	margin-top:30px;
+    }
+    
+    span.frTtl{width:90px; height: 40px; display:inline-block;}
+  
+    .ipVelue{ font-size:13px; height:30px; padding-left:8px;}
+    
+    input#chkBtn{ 
+	    width: 120px; height:75px; 
+	    position: absolute; 
+	    bottom:21%; right:6%;
+	    color:white;
+	    background-color:#ff6600;
+	    border:0; outline:0;
+	    font-size:17px;
+	    cursor:pointer;
+	    transition: all 0.4s ease 0s;
+    }
+     input#chkBtn:hover{
+     	background-color:black;
+     }
+    
+  
+}
+
+/* --------------------------반응형 버젼 ----------------------------*/
+
+@media screen and (max-width:749px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 90%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 100%; height: auto;  
+        margin: 0 auto;  
+        font-size: 28px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        padding-bottom: 6px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+	div#innerBox{
+		width:80%;
+		height: auto;
+		border: 5px solid rgb(237,237,237);
+		margin: 90px auto;
+		padding : 5%;
+		color:#666;
+		text-align:center;
+	}
+	
+	div#innerBox p{
+		font-size: 13px;
+		padding-bottom:40px;
+		border-bottom: 1px solid rgb(227,227,227);
+		text-align:left;
+		
+	}
+
+    div#ipBox{margin-top:30px; text-align:left;}    
+    span.frTtl{width:30%; height: 40px; display:inline-block; font-size:15px;}
+    .ipVelue{ font-size:13px; height:30px; padding-left:8px; width:55%;}
+    input#chkBtn{ 
+    	margin:30px auto 0 auto;
+	    width: 50%; height:45px; 
+	    color:white;
+	    background-color:#ff6600;
+	    border:0; outline:0;
+	    font-size:16px;
+	    cursor:pointer;	
+    }
+    
+  
+
+}

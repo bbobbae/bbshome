@@ -1,0 +1,255 @@
+/* --------------------------PC 버젼 ----------------------------*/
+
+@media screen and (min-width:750px){
+    div#titleWrap{
+        width: 80%; 
+        height: auto; 
+        margin: 0 auto;
+    }
+
+    /* contentWrap */
+    div#contentWrap{
+        width: 55%; height: auto; 
+        margin: 0 auto;
+    }
+
+    h3#contentTitle{
+        width: 80%; height: 150px;  
+        padding-left: 2%;
+        margin: 0 auto;  
+        font-size: 34px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207) 
+    }
+
+
+
+    /* step */
+    div#step{
+        width: 90%; height: 100px; 
+        box-sizing: border-box;  
+        margin: 70px auto 60px auto;
+    }
+    div#step ul{
+        width: 510px; height: 40px;
+        margin: 0 auto;
+    }
+    div#step ul li{
+        display: inline-block;
+        width: 32%;
+    }
+    div#step ul li span{ font-size: 23px;}
+    div#step ul li i:first-child{font-size: 27px; margin-right: 3%;}
+    div#step ul li i:last-child{font-size: 20px; padding-left: 11%;}
+    div#step ul li .point{color: #ff6600;}
+
+
+    div#centerText{
+        margin: 0 auto;
+        width: 90%; height: 80px;
+    }
+
+    div#centerText p:first-child{
+        font-size: 19px; 
+        font-weight: bold; 
+        margin: 30px 0;
+    }
+    div#centerText p:last-child{font-size: 14px;}
+
+
+
+    /* 전체동의/해제 */
+    p#allCheck{
+        font-size: 14px;  
+        line-height: 50px; 
+        text-align: center; 
+        margin: 30px auto; 
+        border-top: 1px solid rgb(207,207,207);
+        border-bottom: 1px solid rgb(207,207,207); 
+        height: 50px; width: 90%; 
+        background-color: #f8f8f8;
+    }
+    input{margin-left: 7px;}
+
+
+    p.checkList{
+        margin: 0 auto;
+        width: 90%; height: height;
+        font-size: 17px; 
+        font-weight: bold; 
+        margin-top: 80px;
+    }
+    p.checkList span{color: #ff6600;}
+
+    p.checkList a{
+        display: none;
+    }
+
+    textarea{
+        display: block; 
+        width: 90%; height: 140px;
+        margin: 15px auto 13px auto;
+    }
+    p.info{
+        margin: 0 auto;
+        width: 90%;
+        font-size: 12px; color: #666666;}
+
+    /* 버튼 */
+    #btnBox {
+        width: 100%; height: 260px;
+        position: relative;
+    }
+
+    #btnBox .agBtn {
+        width: 37%; height: 60px;
+        box-sizing: border-box;
+        color: #333333;
+        border: 1px solid #333333;
+        display: block;
+        font-size: 18px;
+        line-height: 55px;
+        text-align: center; 
+        transition: all 0.4s ease 0s;
+        background-color:white;
+    }
+
+    #btnBox a#cancel{position: absolute; top: 80px; left: 11%;}
+    #btnBox input#agree{position: absolute; top: 80px; right: 11%;}
+    #btnBox input:hover { 
+        background-color: #3d3d3d;
+        color: white;
+    } 
+}
+
+
+
+/* --------------------------모바일 버젼 ----------------------------*/
+
+@media screen and (max-width:749px){
+    div#titleWrap{
+        width: 90%; height: auto; 
+        margin: 0 auto;
+    }
+
+    /* contentWrap */
+    div#contentWrap{
+        width: 100%; height: auto; 
+        margin: 0 auto;
+    }
+
+    h3#contentTitle{
+        width: 100%; height: auto;  
+        margin: 0 auto;  
+        font-size: 28px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        padding-bottom: 9px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207) 
+    }
+
+    /* step */
+    div#step{
+        width: 100%;  height: auto;
+        padding-top: 30px; 
+        margin: 0 auto;
+    }
+    div#step ul{
+        width: 100%; height: 40px;
+        margin: 0 auto;
+    } 
+    ul li.step{display: none;}
+    div#step ul li span{ font-size: 18px;}
+    div#step ul li i:first-child{ 
+        font-size: 22px; 
+        color:#ff6600;
+        padding-right: 2%;
+    }
+    div#step ul li i:last-child{ display: none;}
+
+
+
+    
+    div#centerText{
+        display: none;
+        margin: 0 auto;
+        width: 90%; height: auto;
+    }
+    div#centerText p:first-child{
+        font-size: 16px; 
+        font-weight: bold; 
+        margin: 30px 0;
+    }
+
+
+
+    /* 전체동의/해제 */
+    p#allCheck{
+        font-weight: 700;
+        font-size: 16px;  
+        line-height: 40px; 
+        text-align: left; 
+        margin: 30px auto 0 auto; 
+        border-bottom: 1px solid rgb(207,207,207); 
+        height: auto; width: 90%; 
+    }
+    p#allCheck span{color: #ff6600;}
+
+    input{margin-left: 7px;}
+
+    p.checkList{
+        margin: 0 auto;
+        width: 90%; height: auto;
+        font-size: 15px; 
+        margin-top: 20px;
+    }
+    p.checkList span{color: #ff6600; font-weight: bold;}
+    p.checkList a{
+        color: #333;
+        text-decoration: underline;
+    }
+    p.checkList a:visited{color: #333;}
+    div.textBox{
+        display: none;
+    }
+    textarea{
+        display: block; 
+        width: 90%; height: 140px;
+        margin: 15px auto 13px auto;
+    }
+    p.info{
+        margin: 0 auto;
+        width: 90%;
+        font-size: 12px; color: #666666;
+    }
+
+
+    /* 버튼 */
+    #btnBox {
+        width: 100%; height: 220px;
+        position: relative;
+    }
+
+    #btnBox a, #btnBox input{
+        width: 37%; height: 60px;
+        box-sizing: border-box;
+        color: #333333;
+        border: 1px solid #333333;
+        display: block;
+        font-size: 18px;
+        line-height: 55px;
+        text-align: center; 
+        transition: all 0.4s ease 0s;
+        background-color: white;
+    }
+
+    #btnBox a#cancel{position: absolute; top: 80px; left: 11%;}
+    #btnBox input#agree{position: absolute; top: 80px; right: 11%;}
+    #btnBox input:hover { 
+        background-color: #3d3d3d;
+        color: white;
+    } 
+}

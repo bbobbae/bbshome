@@ -1,0 +1,204 @@
+/*----------------------- PC버전-------------------- */
+
+
+@media screen and (min-width:790px){
+    div#storyWrap{
+        width: 87%;  
+        height: auto;
+        margin: 0 auto 10% auto;
+        background-color: rgb(240, 213, 146);
+        text-align: center;
+        padding-top: 6%;
+    }
+
+    div#storyWrap p.topTitle{
+        font-size: 33px; color: #333;
+        font-weight: bold;
+    }
+    div#storyWrap p.smallTitle{
+        margin:20px 0;
+        font-size: 18px; color: #333;
+    }
+
+
+    .bx-bx-wrapper{margin:0 auto;}
+    .story li{width: 100%; height: 100%; position: relative;}
+
+    .story li img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* 버튼 */
+    .bx-controls-direction{font-size: 3.3rem}
+    .bx-controls-direction a{
+        position: absolute; top: 40%; 
+        display: block; 
+        width: 2.2rem; height: 4.9rem; 
+        overflow: hidden; 
+        color: #333;
+    }
+    
+    .bx-controls-direction .bx-prev{left: 12%; content: "\f053"; font-family: fontawesome;}
+    .bx-controls-direction .bx-next{right:12%; content: "\f054"; font-family: fontawesome;}
+
+    .bx-controls-direction .bx-prev:before{content: "\f053"; font-family: fontawesome;}
+    .bx-controls-direction .bx-next:before{content: "\f054"; font-family: fontawesome;}
+
+    /* story */
+    /* div#story{ 
+        padding-bottom: 36%;
+        width: 100%; 
+        background-color: rgb(255, 253, 248);
+        text-align: center;
+        position: relative;
+        padding-top: 6%;
+        margin-bottom: 90px;
+    }
+    div p.topTitle{
+        font-size: 33px; color: #333;
+        font-weight: bold;
+    }
+     div#story p:nth-child(2){
+        padding-top:20px;
+        font-size: 18px; color: #333;
+    }
+    
+    
+    div.imgbox{width: 45%; height: 50%;}
+
+    div#leftImgbox{
+        position: absolute; 
+        top:45%; left: 5%;
+    } 
+    div#rightImgbox{
+        position: absolute; 
+        top:45%; right: 5%;
+    } 
+    div#leftImgbox div p{padding: 0.5% 2%; box-sizing: border-box;}
+    div#rightImgbox div p{padding: 2.8% 2%; box-sizing: border-box;}
+    div.imgbox a img{width: 95%; height: 100%;}
+    div.imgText{position: relative;}
+    div.imgText p{
+        position: absolute;
+        bottom: 0; left: 2.5%;
+        width: 95%; height: auto;
+        text-align: left;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 16px; 
+    }
+    div#btnArea{
+        position: absolute;
+        top: 63%;
+        width: 100%;
+        font-size: 31px;
+        color:#333;
+    }
+    div#btnArea span{cursor: pointer;}
+    div#btnArea span#leftBtn{
+        margin-left: 90%;
+    } */
+
+
+
+
+    /* news */
+    div#news{
+        width: 100%; height: 500px; 
+        margin: 120px auto 40px auto;
+    }
+    div#news div#titleBox{ 
+        margin: 0px auto;
+        width: 90%; height: 150px;
+        text-align: center; 
+        position: relative;
+    }
+
+    div#titleBox a{position: absolute; top: 90px; right:2%;}
+    
+    div#newsBox{
+        margin: 0 auto;
+        width:90%; height: auto;
+    }
+
+    div#newsBox ul li a{
+        white-space: normal;
+        text-align: left;
+        word-wrap: break-word;
+        float: left;
+        width: 25%; height: 241px;
+        box-sizing: border-box;
+        padding: 10px; 
+        border: 1px solid #333;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+    }
+    div#newsBox ul li a{color: #333;}
+
+    div#newsBox ul li a:visited{ color:#333;}
+
+    div#newsBox ul li a p:first-child{font-size: 20px; font-weight: bold;}
+    
+    div#newsBox ul li a p:nth-child(2){
+        padding-bottom: 5px;
+        font-size: 16px; padding-top: 5px;
+    }
+    div#newsBox ul li a p:nth-child(3){font-size: 15px; line-height: 21.5px;}
+
+
+    /* newsletter */
+    div#newsletter{
+        width: 100%; 
+        margin-bottom: 4%;
+        padding-bottom: 40%;
+        text-align: center;
+        position: relative;
+        background-color: rgb(255, 253, 248);
+    }
+    div#newsletter p.topTitle{padding-top: 4%; padding-bottom: 30px;}
+
+    div#newsletterBox a{
+        position: absolute;
+        top: 14%; right:7%;
+        font-size: 15px;
+    }
+    div#newsletterShow{
+        margin: 0 auto;
+        width:90%; height: auto;
+    }
+    li.view a img{
+        position: absolute;
+        width: 12%; height: auto;        
+    }
+
+    ul#newsletterList li:nth-child(1) a img{top:35%; left: 9%;}
+    ul#newsletterList li:nth-child(2) a img{top:35%; left: 24%;}
+    a img#main{
+        position: absolute;
+        top:31%; left: 50%; transform: translateX(-50%);
+        width: 16%;
+    }
+    ul#newsletterList li:nth-child(4) a img{top:35%; right: 24%;}
+    ul#newsletterList li:nth-child(5) a img{top:35%; right: 9%;}
+
+    div#nlBtn{
+        width: 100%;
+        position: absolute;
+        top: 45%;
+        font-size: 31px;
+        cursor: pointer;
+    }
+    div#nlBtn span#nlright{
+        margin-left: 89%;
+    }
+    
+
+    a .fas{font-size: 31px; color: #333;}
+}
+/*----------------------- 모바일 버전-------------------- */
+@media screen and (max-width:699px){
+
+}

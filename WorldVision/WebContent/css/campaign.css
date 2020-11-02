@@ -1,0 +1,567 @@
+/* --------------------------PC 버젼 ----------------------------*/
+
+@media screen and (min-width:750px){
+
+    .bx-wrapper:nth-child(2){
+        display: none;
+    }
+    div#topTitle{ 
+        height: auto; 
+        padding: 5% 0 1% 0;
+        color: black;
+    }
+
+    div#sliderWrap{
+        width: 80%;
+        margin: 0 auto;
+    }
+    div p.campaignTitle{ 
+        text-align: center;
+        font-size: 37px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        animation: inText 1.2s .3 both;
+        color:black;
+    }
+
+    p.smallTitle {
+        font-size: 22px; 
+        line-height: 35px; 
+        text-align: center;
+        animation: inText 1.6s .5s both;
+    }
+    div#topTitle p.smallTitle span{color: #ff6600;} 
+
+
+    .camSlider li{
+        width: 30%; 
+        height: auto; 
+        position: relative;
+    }
+    .camSlider li img{
+        width: 100%;
+        height: auto;
+    }
+    .camSlider a{width: 100%; height: 100%;}
+
+    .camSlider div{
+        position: absolute;
+        top:0; left: 0; 
+        color:white; 
+        width:100%; 
+        height: 100%;
+        padding-top: 25%;
+        box-sizing: border-box;
+        transition: all 0.5s ease 0s;
+        background-color: rgba(0, 0, 0, 0.185); 
+    }
+
+    .camSlider div:hover{
+        color: white; 
+        box-shadow:inset 0 0 300px 200px rgba(0, 0, 0, 0.712);
+        text-decoration: underline;
+    }
+    .camSlider div:hover p{ animation: inText 1s .2s both; }
+
+    .camSlider div p:first-child{font-size:1.3rem;}
+    .camSlider div p:last-child{font-size:1.7rem; padding-top: 1%;}
+
+    .bx-controls-direction{font-size: 50px;}
+    .bx-controls-direction a{
+        position: absolute; top: 40%; 
+        display: block; 
+        width: 30px; height: 57px; 
+        overflow: hidden; 
+        color: #333;
+    }
+
+
+    .bx-controls-direction .bx-prev{left: -5%; content: "\f053"; font-family: fontawesome;}
+    .bx-controls-direction .bx-next{right:-5%; content: "\f054"; font-family: fontawesome;}
+
+    .bx-controls-direction .bx-prev:before{content: "\f053"; font-family: fontawesome;}
+    .bx-controls-direction .bx-next:before{content: "\f054"; font-family: fontawesome;}
+    .bx-wrapper{
+        position: relative; 
+        text-align: center; 
+        width: auto; 
+        margin: 90px auto;
+    } 
+
+
+    @keyframes inText {
+        0%{opacity: 0; transform: translateY(20px);}
+        100%{opacity: 1; transform: translateY(0);}
+    } 
+
+
+    /* 공통 */
+    div.content{
+        width: 100%; height: 600px; 
+        margin-bottom: 40px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+
+    /* campaign */
+    div#campaign{
+        position: relative;
+        margin-top: 40px;
+        background-color: rgb(255, 253, 248);
+    }
+    div#campaign div.imgbox {
+        width: 42%; height: 340px;
+        margin: 10px 10px;
+        display: inline-block;
+    }
+    div.imgbox a{position: relative;}
+
+    div.imgbox a img{
+        width: 100%; height: 280px
+    }
+
+    a div.imgText{
+        position: absolute;
+        top: 190px;
+        width: 94.7%; height: 80px;
+        text-align: left;
+        padding-left: 20px; 
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding-top: 10px;
+        
+    }
+    div.imgText p:first-child{font-size: 17px;}
+    div.imgText p:last-child{font-size: 21px; font-weight: bold;}
+
+    div#buttonBox{
+        position: absolute;
+        top: 55%;
+        font-size: 31px;
+        width: 100%;
+    }
+    span#rightBtn{
+        margin-left: 90%;
+    }
+
+
+    div#programWrap{
+        width: 80%; height: 150px;
+        margin: 40px auto;
+    }
+
+
+    /* program */
+
+    .tabmenu{ 
+        max-width:800px; 
+        height: 1100PX;
+        margin: 50px auto; 
+        position:relative; 
+    }
+
+	ul.tabs li{
+		border-bottom:2px solid #ff6600;
+		cursor: pointer;
+		display: inline-block;
+		width:25%; height:50px;
+		line-height:50px;
+		font-size:14px;	
+        float:left;  
+        text-align:center; 
+        background-color: rgba(236, 236, 236, 0.932);
+        border-radius: 15px 15px 0 0;
+	}
+	
+	ul.tabs li.current{
+		background: #ff6600;
+		color: white;
+	}
+	
+	.tab-content{
+		display: none;
+		padding: 60px 30px 30px 30px;
+		box-sizing: border-box; 
+        border : 5px solid #f9f9f9;
+		margin-top:50px;
+	}
+	
+	.tab-content.current{
+		display: inherit;
+	}
+
+
+    .camTitle{
+        color: #333;
+        font-weight: bold;
+        font-size: 20px;
+        padding:30px 0 40px 0;
+    }
+    .smTitle{
+        color: #ff6600;
+        font-weight: bold;
+        font-size: 17px;
+        padding-bottom: 40px;
+    }
+ 
+    .about{
+        color: #333;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .imgText{
+        display: block;
+        width: 400px;
+        padding-right: 30px;
+        float: right;
+        font-size: 14px;
+        line-height: 22px;
+        color: #333;
+    }
+
+    div#familyImg img{margin: 12.5px;}
+    div.apply{
+        margin: 50px auto 70px auto;
+        width: 100%;
+        height: 160px;
+        border: 2px solid #46bc96;
+        color: rgb(83, 83, 83);
+        box-sizing: border-box;
+        padding: 20px;
+        font-size: 14px;
+        box-shadow: 3px 3px 5px #cdcdcd;
+        
+    }
+    div#applySm{
+        width: 100%;
+        height: 100px;
+    }
+
+    div.apply span{
+        font-size: 16px;
+        display: block;
+        padding-right: 30px;
+        height: 100%;
+        float: left;
+        font-weight: bold;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    div.apply #ex{
+        font-size: 12px;
+    }
+	
+
+
+
+
+
+    /* 해외사업장방문 */
+    table{
+        text-align: center;
+        width: 100%;
+        border-top: 1px solid #999999;
+        border-collapse: collapse;
+        border-spacing: 0px;
+    }
+    th,td{
+        border-right: 1px solid #D9D9D9;
+        border-bottom: 1px solid #D9D9D9;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    tbody th{
+        width: 130px;
+        background-color: #F8F8F8;
+    }
+   
+    tbody th,td:last-child{
+        border-right: none;
+    }
+    p#timeTableTxt{
+        font-size: 11px;
+        color: #999;
+        margin: 20px 0;
+    }
+ 
+    /* 비전메이커 */
+    div#maker span.smTitle{
+        height: 320px; width: 180px;
+        float: left;
+    }
+    div#maker dl{
+        color: #00accb;
+        font-size:15px;
+        padding-bottom: 15px;
+    }
+    div#maker dl .subTt{
+        color: #333;
+        font-weight: bold;
+    }
+    
+    div#maker dd{
+        color: #666;
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+
+
+    /* 번역봉사단 */
+
+    div#translation{
+        height: 350px;
+        width: 100%;
+    }
+    #translation .smTitle{
+        height: 50%; width: 180px;
+        float: left;
+    }
+    #translation #benefits{
+        height: 10%;
+    }
+
+    p#benefitText {
+        color: rgb(83, 83, 83);
+        font-size: 14px;
+    }
+    #translation dl{font-weight: bold;}
+
+    #translation dd{
+        color: #333;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    dd#lastEp{padding-bottom: 50px;}
+
+
+    /*패밀리데이*/
+    div#sponPic img{
+        display: block;
+        width: 600px; height: auto;
+        margin: 50px auto;
+    }
+    div#fdvideoBtn a{
+        display: block;
+        width: 200px; height: 50px;
+        background-color: #ff6600;
+        color: white;
+        text-align: center;
+        line-height: 47px;
+        font-size: 17px;
+        border-radius: 5px;
+        margin: 0 auto;
+        border: 1px solid #ff6600;
+        transition: all 0.5s ease 0s;
+    }
+    div#fdvideoBtn a:hover{
+        background-color: white;
+        color:#333;
+    }
+    div#MobileContentWrap{display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------모바일버젼------------------------  */
+
+@media screen and (max-width:749px){
+    div#PcContentWrap{display: none;}
+
+    .bx-wrapper:first-child{
+        display: none;
+    }
+    
+    div#topTitle{ 
+        background-color: rgb(245, 245, 245);
+        height: auto; 
+        padding: 5% 0 1% 0;
+        color: black;
+    }
+
+    div#sliderWrap{
+        width: 80%;
+        margin: 0 auto;
+    }
+    div p.campaignTitle{ 
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 30px auto;
+        animation: inText 1.2s .3 both;
+        color:black;
+    }
+
+    p.smallTitle {
+        font-size: 1.5rem; 
+        line-height: 2.5rem; 
+        text-align: center;
+        animation: inText 1.6s .5s both;
+    }
+    div#topTitle p.smallTitle span{color: #ff6600;} 
+
+    .camSlider li{
+        width: 30%; 
+        height: auto; 
+        position: relative;
+    }
+    .camSlider li img{
+        width: 100%;
+        height: auto;
+    }
+    .camSlider a{width: 100%; height: 100%;}
+
+    .camSlider div{
+        position: absolute;
+        top:0; left: 0; 
+        color:white; 
+        width:100%; 
+        height: 100%;
+        padding-top: 25%;
+        box-sizing: border-box;
+        transition: all 0.5s ease 0s;
+        background-color: rgba(0, 0, 0, 0.4); 
+    }
+
+    .camSlider div p{ animation: inText 1s .2s both; }
+
+    .camSlider div p:first-child{font-size:1.3rem;}
+    .camSlider div p:last-child{font-size:1.7rem; padding-top: 1%;}
+
+    .bx-controls-direction{font-size: 40px;}
+    .bx-controls-direction a{
+        position: absolute; top: 40%; 
+        display: block; 
+        width: 27px; height: 57px; 
+        overflow: hidden; 
+        color: #333;
+    }
+
+
+    .bx-controls-direction .bx-prev{left: -10%; content: "\f053"; font-family: fontawesome;}
+    .bx-controls-direction .bx-next{right:-10%; content: "\f054"; font-family: fontawesome;}
+
+    .bx-controls-direction .bx-prev:before{content: "\f053"; font-family: fontawesome;}
+    .bx-controls-direction .bx-next:before{content: "\f054"; font-family: fontawesome;}
+    .bx-wrapper{
+        position: relative; 
+        text-align: center; 
+        width: auto; 
+        margin: 60px auto;
+    } 
+
+    @keyframes inText {
+        0%{opacity: 0; transform: translateY(20px);}
+        100%{opacity: 1; transform: translateY(0);}
+    } 
+
+
+    /* 공통 */
+    div.content{
+        width: 100%; height: 600px; 
+        margin-bottom: 40px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+
+    /* campaign */
+    div#campaign{
+        position: relative;
+        margin-top: 40px;
+        background-color: rgb(255, 253, 248);
+    }
+
+
+    div#campaign div.imgbox {
+        width: 42%; height: 340px;
+        margin: 10px 10px;
+        display: inline-block;
+    }
+    div.imgbox a{position: relative;}
+
+    div.imgbox a img{width: 100%; height: 280px;}
+
+    a div.imgText{
+        position: absolute;
+        top: 190px;
+        width: 94.7%; height: 80px;
+        text-align: left;
+        padding-left: 20px; 
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding-top: 10px;
+        
+    }
+    div.imgText p:first-child{font-size: 17px;}
+    div.imgText p:last-child{font-size: 21px; font-weight: bold;}
+
+    div#buttonBox{
+        position: absolute;
+        top: 55%;
+        font-size: 31px;
+        width: 100%;
+    }
+    span#rightBtn{margin-left: 90%;}
+
+    /* program */
+    div img#programPhoto{
+        display: inline-block;
+        width: 290px; height: auto;
+    }
+    div#programWrap{ margin-bottom: 6%;}
+  
+    /* 아코디언 */
+    a.accordion_tab{display: block;}
+    
+    .accordion_content{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .wrapper p.camTitle{
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: #333;
+    }
+    .wrapper p.smTitle{
+        margin: 10px 0;
+        font-size: 14px;
+        color:#ff6600;
+        font-weight: bold;
+    }
+    .wrapper .imgText{
+        line-height: 18px;
+        font-size: 1.3rem;
+    }
+
+    .wrapper .tabcon a{
+        margin: 5% 1% ;
+        display: inline-block;
+        width: 46%;
+        height: 40px;
+        background-color: #ff6600;
+        border: 1px solid #ff6600;
+        line-height: 40px;
+        font-size: 13px; color: white;
+    }
+    .wrapper .tabcon a.info{
+        background-color: white;
+        color: #333;
+    }
+    .wrapper img{
+        width: 35%;
+        display: block;
+        margin: 0 auto 10px ;
+    }
+    /* 패밀리데이 */
+}

@@ -1,0 +1,322 @@
+/* --------------------------PC 버젼 ----------------------------*/
+
+@media screen and (min-width:750px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 80%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 80%; height: 150px;  
+        margin: 0 auto;  
+        font-size: 30px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+
+
+    /* step */
+    div#step{
+        width: 90%; height: 60px; 
+        box-sizing: border-box;  
+        margin: 90px auto 80px auto;
+    }
+    div#step ul{
+        width: 456px; height: 40px;
+        margin: 0 auto;
+    }
+    div#step ul li{
+        display: inline-block;
+        width: 31%;
+    }
+    div#step ul li span{ font-size: 23px;}
+    div#step ul li i:first-child{font-size: 27px; margin-right: 3%;}
+    div#step ul li i:last-child{font-size: 20px; padding-left: 11%;}
+    div#step ul li .point{color: #ff6600;}
+
+
+    /*  content1 영역  */
+    div#main{
+        margin: 20px auto 0 auto;
+        width: 580px; height: auto; 
+    }
+    ul.joinForm li{width: 580px; height: 120px; }
+    ul.joinForm li div .lable1 {
+        display: block; 
+        font-weight: 700; 
+        font-size:  14px; 
+        margin-bottom: 10px; 
+        color: #333333;
+    }
+    ul.joinForm li div input{
+        box-sizing: border-box;  
+        padding:10px; 
+        border: 1px solid #969696; 
+        background-color: white;
+        color: #333333; 
+        font-weight: 400; 
+        opacity: 0.7; 
+    }
+    ul.joinForm li .user1 {
+        width: 458px; height: 46px;    
+        border: 1px solid #969696;
+    }
+    ul.joinForm li.list1 .user2 {width:580px; height: 46px;}
+   
+    ul.joinForm li.list1 #input5 { position: relative; }
+    ul.joinForm li.list1 #input5 span {
+        position: absolute; 
+        right: 7px; bottom: 0;
+    }
+    li.list1 #input5 span .genderRadio { display: none;}
+    li.list1 #input5 span label {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 55px; height: 47px;
+        border: 1px solid #969696;
+        background-color: white;
+        text-align: center;
+        color: #333333;
+        line-height: 45px;
+        margin-right: -7px;  
+    }
+    .joinForm li.list1 #input5 span .genderRadio:checked + .genderLable {
+        background-color: #adadad;
+        color: white;
+    }
+
+
+    #connectNum {display: none;}
+
+    #content1 .joinForm li .btn1 {
+        float: right;
+        width: 112px;
+        height: 44px;
+        border: 1px solid #969696;
+        background-color: white;
+        text-align: center;   
+        line-height: 43px;
+        color: #333333;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    li .deiailP{font-size: 12px;}
+
+
+
+
+    /*  인증번호 전송하면 나타나는 구역  */
+    ul.joinForm li#input6_1 { margin: 20px 0;  /* display: none; */}
+
+    #content1 .joinForm li #input6_1 p {
+        font-size: 12px; 
+        letter-spacing: -0.5px; 
+        color: red; margin-top: 5px;
+    }
+
+    ul.joinForm li:last-child{height: 130px;}
+    ul.joinForm li div#input7 input{
+        width: 276px; height: 46px; 
+        margin-bottom: 10px;
+    }
+	p#ViewTimer{
+		font-size: 12px;
+    	margin-top: 3px;
+	}
+
+
+    /* 버튼 */
+    #btnBox {
+        margin: 0 auto;
+        width: 100%; height: 100px;
+        margin: 90px auto;
+        clear: both;
+    }
+    
+    #btnBox .btn3 {    
+    	cursor:pointer;
+        float: left;
+        width: 48%; height: 60px;
+        box-sizing: border-box;
+        color: #333333;
+        border: 1px solid #333333;
+        display: block;
+        font-size: 18px;
+        line-height: 55px;
+        text-align: center; 
+        transition: all 0.4s ease 0s;
+        margin: 0 1%;
+        background-color:white;
+    }
+
+    #btnBox input:hover { 
+        background-color: #3d3d3d;
+        color: white;
+    }  
+}
+
+/* --------------------------모바일 버젼 ----------------------------*/
+
+@media screen and (max-width:749px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 90%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 100%; height: auto;  
+        margin: 0 auto;  
+        font-size: 28px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        padding-bottom: 6px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+
+
+    /* step */
+    div#step{
+        width: 100%; height: 100%; 
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+    div#step ul{
+        width: 100%; height: 100%;
+        margin: 0 auto;
+    }
+    
+    ul li.step{display: none;}
+    div#step ul li span{ font-size: 18px;}
+    div#step ul li i:first-child{ 
+        font-size: 22px; 
+        color:#ff6600;
+        padding-right: 2%;
+    }
+    div#step ul li i:last-child{ display: none;}
+
+
+    /*  content1 영역  */
+    div#main{
+        margin: 5% auto 0 auto;
+        width:  90%; height: auto; 
+    }
+    ul.joinForm li{width: 100%; height: 80px; }
+    ul.joinForm li div .lable1 {
+        display: block; 
+        font-weight: 700; 
+        font-size:  14px; 
+        margin-bottom: 10px; 
+        color: #333333;
+    }
+    ul.joinForm li div input{
+        box-sizing: border-box;  
+        padding:2%; 
+        border: 1px solid #969696; 
+        background-color: white;
+        color: #333333; 
+        opacity: 0.7; 
+        font-size: 12px;
+    }
+    ul.joinForm li .user1 {
+        width: 70%; height: 46px;
+    }
+    ul.joinForm li.list1 .user2 {width:100%; height: 46px;}
+    ul.joinForm li.list1 #input5 { position: relative; }
+    ul.joinForm li.list1 #input5 span {
+        position: absolute; 
+        right: 7px; bottom: 0;
+    }
+    li.list1 #input5 span .genderRadio { display: none;}
+    li.list1 #input5 span label {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 55px; height: 47px;
+        border: 1px solid #333333;
+        background-color: white;
+        text-align: center;
+        color: #333333;
+        line-height: 41px;
+        margin-right: -7px;  
+        font-size:14px;
+    }
+    .joinForm li.list1 #input5 span .genderRadio:checked + .genderLable {
+        background-color: #adadad;
+        color: white;
+    }
+
+    #connectNum {display: none;}
+
+    #content1 .joinForm li .btn1 {
+        float: right;
+        width: 25%;
+        height: 44px;
+        border: 1px solid #969696;
+        background-color: white;
+        text-align: center;   
+        line-height: 43px;
+        color: #333333;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    li .deiailP{font-size: 12px;}
+
+
+
+
+    /*  인증번호 전송하면 나타나는 구역  */
+    ul.joinForm li#input6_1 { margin: 20px 0;  /* display: none; */}
+
+    #content1 .joinForm li #input6_1 p {
+        font-size: 12px; 
+        letter-spacing: -0.5px; 
+        color: red; margin-top: 5px;
+    }
+
+    ul.joinForm li:last-child{height: auto;}
+    ul.joinForm li div#input7 input#email1{
+        width: 70%; height: 46px; 
+        margin-bottom: 10px;
+    }
+    ul.joinForm li div#input7 input#email2{
+        width: 100%; height: 46px; 
+        margin-bottom: 10px;
+    }
+    ul.joinForm li div#input7 span{font-size: 22px;}
+
+
+
+
+    /* 버튼 */
+    #btnBox {
+        margin: 0 auto;
+        width: 100%; height: 100px;
+        margin: 90px auto;
+        clear: both;
+    }
+    
+    #btnBox .btn3 {    
+        float: left;
+        width: 43%; height: 50px;
+        box-sizing: border-box;
+        color: #333333;
+        border: 1px solid #333333;
+        display: block;
+        font-size: 16px;
+        line-height: 51px;
+        text-align: center; 
+        transition: all 0.4s ease 0s;
+    	background-color:white;
+    	cusor:pointer;
+    }
+
+    #btnBox .btn3{margin-left: 3%;}
+
+
+}

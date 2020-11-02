@@ -1,0 +1,373 @@
+/* --------------------------PC 버젼 ----------------------------*/
+
+@media screen and (min-width:750px){
+    div.swiper-container{display: none;}  
+    
+    /* contentReason */
+    div#contentReason{
+        background: url(../menu/about_images/top.jpg)no-repeat center center ; 
+        background-size: cover; height: 350px; 
+    }
+    div#contentReason div{
+        width:100%; height: 100%;
+        background-color: rgba(7, 7, 7, 0.3); 
+    }
+    div#contentReason p{
+        width: 80%; 
+        margin: 0 auto; 
+        color: white;
+    }
+    div#contentReason p:first-child{
+        padding-top: 80px; 
+        font-size: 2.5rem; 
+        font-weight: bold;
+    }
+    div#contentReason p:last-child{
+        padding-top: 15px; 
+        font-size: 1.5rem; 
+    }
+
+    /* contentWrap */
+    div#contentWrap{
+        width: 65%; height: auto; 
+        margin: 0 auto;
+    }
+
+
+    /* contentBusiness */
+    div#contentBusiness {padding-top: 100px; text-align: center; }
+    div#contentBusiness p:first-child{font-size: 2.2rem; padding-bottom: 30px;}
+    div#contentBusiness p:first-child span{color: #ff6600;}
+    div#contentBusiness>p:nth-child(2){
+        font-size: 1.2rem; 
+        padding: 2% 0;
+        line-height: 2rem;
+    }
+    div#contentBusiness ul{
+        display: inline-block;
+        margin-top:5%;
+    }
+
+    div#contentBusiness>ul li{
+        display: inline-block;
+        color: #666666;
+    } 
+    div#contentBusiness >ul li p{ 
+        color:#333; 
+        font-size: 1rem;
+    }
+    div#contentBusiness>ul li img{
+        width: 46%;
+        padding-bottom: 10%;
+    }
+
+
+    /* contentIntro */
+    div#contentIntro{
+        margin-top: 8%;
+        clear: both; 
+        height: 380px; width:100%;
+        background: url(../menu/about_images/about03.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    div#contentIntro div#leftText{
+        text-align: right;
+        padding-top: 70px; 
+        padding-right: 60px; 
+    }
+    div#contentIntro div#leftText p:first-child{font-size: 2.2rem; padding-bottom: 20px;}
+    div#contentIntro div#leftText p:last-child{font-size: 1.2rem; line-height: 2.2rem;}
+    div#contentIntro div p span{color: #ff6600;}
+
+    /* contentGraph */
+    div#contentGraph{
+        text-align: center; 
+        height: 30%; 
+    }
+    div#contentGraph img{
+        width: 60%;
+    }
+
+    div#contentGraph p:first-child{padding-top: 90px; font-size: 2.2rem;}
+    div#contentGraph p:nth-child(2){
+        padding-top: 30px; 
+        padding-bottom: 60px; 
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+    div#contentGraph p span{color: #ff6600;}
+
+
+    /* contentReview */
+    div#contentReview{
+        margin: 8% auto; 
+        height: 400px; 
+        background: url(../menu/about_images/about02.jpg) no-repeat center center; 
+        background-size: cover;
+    }
+    div#contentReview p{text-align: right;  padding-right: 60px; }
+    div#contentReview p span{color: #ff6600;}
+    div#contentReview p:first-child{
+        font-size: 2.2rem;
+        padding-bottom: 30px; 
+        padding-top: 50px;}
+    div#contentReview p:last-child{
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+
+
+    /* contentStory */
+    div#contentStory{ 
+        width: 100%; height: 450px; 
+        background: url(../join/images/wv_wall_01_2560.jpg) no-repeat center center ; 
+        background-size: cover; margin-bottom: 150px;
+    }
+    div#contentStory{
+        position: relative;
+    }
+    div#contentStory p{ 
+        width: 98%;
+        text-align: center;
+        font-size: 2.2rem;
+        padding: 30px 0;
+        color:white;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+    div#storyColor div{
+        position: absolute;
+        transition: all ease 0.2s; 
+        color: white; 
+        box-sizing: border-box; 
+        padding-top: 6%; 
+        text-align: center; 
+        font-size: 1.6rem; 
+        width: 27%; height: 300px; 
+        background-color: rgba(22, 22, 22, 0.644);
+    }
+    div#storyColor div:hover{box-shadow: 5px 5px 10px 5px rgba(49, 49, 49, 0.473);}
+
+    div#storyColor div#leftBox{top: 26%; left: 20%;}
+    div#storyColor div#rightBox{top: 26%; right: 20%;}
+
+    div#storyColor div a{
+    position: absolute; 
+    bottom:11%; left: 50%; 
+    transform: translateX(-50%); 
+    outline: 0; 
+    border: 0; font-size: 16px; 
+    display: block; 
+    width: 90%; height: 50px; 
+    line-height: 50px;
+    color: white;
+    background-color: #ff6600;
+    transition: all ease 0.3s; 
+
+    }
+   
+    div#storyColor div a:hover{ 
+        background-color: black;
+        color: rgb(225, 255, 255);
+    } 
+
+.up-on-scroll{
+  transition: transform 1.4s, opacity 2s;
+}
+
+}
+
+
+/* -----------------------모바일버젼------------------------  */
+
+@media screen and (max-width:749px){
+
+    div.parallax-bg{
+        background: url(../menu/about_images/wv_wall_02_1920.jpg) no-repeat 10% center; background-size:  100% 100%;
+    }
+    .swiper-slide{
+        height: auto;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    } 
+    .swiper-slide div.title{
+        font-size: 3rem;
+        margin-bottom: 9%;
+    }
+    .swiper-slide div.text {
+        margin: 0 auto;
+        font-size: 1.6rem;
+        margin-bottom: 40px;
+        text-align: center;
+        line-height: 2.2rem;
+    }
+    div#WVabout div.text{
+        margin-bottom: 50px;
+    }
+
+    /* contentReason */
+    div#contentReason{
+        display: none;
+    }
+
+    /* contentBusiness */
+    div#contentBusiness {padding-top: 50px; text-align: center; }
+    div#contentBusiness p:first-child{font-size: 2.2rem; padding-bottom: 10px;}
+    div#contentBusiness p:first-child span{color: #ff6600;}
+    div#contentBusiness>p:nth-child(2){
+        font-size: 1.3rem; 
+        padding: 2% 0;
+        line-height: 2rem;
+    }
+    div#contentBusiness ul{
+        width: auto;
+        display: inline-block;
+        margin-top:5%;
+    }
+
+    div#contentBusiness ul li{
+        display: inline-block;
+        color: #666666;
+        width: 32%;
+    } 
+    div#contentBusiness ul li p{ 
+        color:#333; 
+        font-size: 1.1rem;
+    }
+    div#contentBusiness ul li img{
+        width: 37%;
+        padding-bottom: 12%;
+    }
+
+
+    /* contentIntro */
+    div#contentIntro{
+        display: none;    
+    }
+   
+    /* contentGraph */
+    div#contentGraph{
+        width: 98%;
+        margin: 20px auto ;
+        text-align: center; 
+        height: 30%; 
+    }
+    div#contentGraph img{
+        width: 80%;
+    }
+
+    div#contentGraph p:first-child{padding-top: 50px; font-size: 2.2rem;}
+    div#contentGraph p:nth-child(2){
+        padding-top: 30px; 
+        padding-bottom: 60px; 
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+    div#contentGraph p span{color: #ff6600;}
+
+
+    /* contentReview */
+    div#contentReview{
+        margin: 10% auto; 
+        height: 300px; 
+        background: url(../menu/about_images/about02.jpg) no-repeat center center; 
+        background-size: cover;
+    }
+    div#contentReview p{text-align: right;  padding-right: 10px; }
+    div#contentReview p span{color: #ff6600;}
+    div#contentReview p:first-child{
+        font-size: 2.2rem;
+        padding-bottom: 30px; 
+        padding-top: 40px;}
+    div#contentReview p:last-child{
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+
+
+    /* contentStory */
+    div#contentStory{ 
+        width: 100%; height: 450px; 
+        background: url(../join/images/wv_wall_01_2560.jpg) no-repeat center center ; 
+        background-size: cover; margin-bottom: 130px;
+    }
+
+    div#storyColor{
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.582);
+    } 
+
+    div#contentStory p{ 
+        width: 98%;
+        text-align: center;
+        font-size: 2.2rem;
+        padding: 30px 0;
+        color:white;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+    div#storyColor div{
+        position: relative;
+        margin: 0 auto;
+        transition: all ease 0.2s; 
+        color: white; 
+        box-sizing: border-box; 
+        text-align: center;
+        margin-bottom: 6%;
+        padding-top: 8px; 
+        font-size: 17px; 
+        width: 80%; height: 140px; 
+        border: 1px solid #ff6600;
+    }
+    div#storyColor div a{
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%; height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color:white;
+        background-color:#ff6600;
+        font-size: 16px
+    }  
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        background: #000;
+    }
+    .swiper-slide {
+        font-size: 18px;
+        color:#fff;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 60px;
+    }
+    .parallax-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    .swiper-slide .title {
+        font-size: 41px;
+        font-weight: 300;
+    }
+    .swiper-slide .subtitle {
+        font-size: 21px;
+    }
+    .swiper-slide .text {
+        font-size: 14px;
+        max-width: 400px;
+        line-height: 1.3;
+    }
+
+}
+
+
+

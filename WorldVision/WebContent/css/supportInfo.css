@@ -1,0 +1,260 @@
+div#contentWrap{
+    width: 80%; height: auto; 
+    margin: 0 auto;
+}
+h3#contentTitle{
+    height: 150px; width: 80%; 
+    margin: 0 auto;  
+    font-size: 2.3rem; 
+    color: #ff6600; 
+    padding-top: 65px;
+    box-sizing: border-box; 
+    border-bottom:1px solid rgb(207,207,207);
+}
+
+/* step */
+div#step{
+    height: 140px; width: 600px;
+    box-sizing: border-box; 
+    margin: 90px auto 100px auto;
+}
+div#step ul{
+    width: 100%; height: 40px;
+    margin: 0 auto;
+}
+div#step ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+div#step ul li span{
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #222;
+}
+div#spon {
+    width: 80%; height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* 후원내용 */
+div.supTitle{
+    margin: 100px auto 10px ;
+    color:#444;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+table#supResult{
+	margin:0 auto;
+    width: 100%;
+    border-top:1px solid rgb(66, 66, 66);
+    font-size: 1rem;
+    border-spacing: 0;
+}
+
+table#supResult tr{
+    font-size: 0.9rem;
+    color: #555;
+    border-bottom: rgb(172, 172, 172);
+}
+table#supResult tr td:first-child{
+    width: 20%;
+    height: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+table#supResult tr td:nth-child(2){
+    padding-left: 1%;
+}
+table#supResult input{
+    width: 10%; height: 25px;
+    border: 1px solid #666;
+    color: #666;
+}
+
+div#total{
+    height: 50px;
+    background: #e5e5e5;
+    border-bottom: 1px solid #d5d5d5;
+    color: #333;
+    line-height: 50px;
+    font-size: 15px;
+   	padding-left: 8%;
+    margin-bottom: 50px;
+}
+div#total p{
+    display: inline;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+caption{display:none}
+
+
+/* 후원자정보 */
+table.infoTab{
+	margin:0 auto;
+	width:	100%;
+    border-spacing: 0;
+    border-top:1px solid rgb(66, 66, 66);
+    border-bottom:1px solid rgb(172, 172, 172);
+    color: #666;
+}
+table.infoTab input[type=text],table.infoTab input[type=number]{
+    height: 25px;
+    padding-left: 1%;
+    color: #666;
+    border: 1px solid #CECAC5;
+}
+
+#suportPsl input[type=password]{
+    height: 25px;
+}
+
+
+table select{
+	color:#666;
+	border: 1px solid #CECAC5; 
+    height: 28px;
+}
+
+table.infoTab tr>th{
+    width: 17%;
+    padding: 15px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+table.infoTab th>span{
+    color: #ff6600;
+    padding-left: 3px;
+}
+table.infoTab td{
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 15px 0 15px 10px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+table.infoTab label{
+    margin: 0 10px 0 4px;
+}
+
+
+tr#supName input{ width: 120px; }
+tr#phone select, tr#phone input{width: 120px;}
+
+tr#email input, tr#email select{
+    width:105px;
+}
+
+tr#service div#mainTxt{
+    font-size: 0.9rem;
+}
+tr#service div#mainTxt p{margin-bottom: 1%;}
+
+tr#service p#serviceTxt{
+    margin-top:3%;
+    font-size: 0.8rem;
+}
+
+div#spSym{
+	display:none;
+}
+
+p#personalNum{ margin: 2% 0;}
+p#personalNum input{width: 90px;}
+a#personalChk{
+    display: inline-block;
+    height: 30px; width: 135px;
+    line-height: 27px;
+    background: #595959;
+    color:white;
+    font-size: 0.9rem;
+    text-align: center;
+}
+p#agree{
+    font-weight: bold;
+    font-size: 1rem;
+}
+p#agree span{color: #ff6600;}
+p#smTxt{
+    letter-spacing: -0.9px;
+    font-size: 0.8rem;
+}
+
+div#agreeTable{
+    margin: 1% 0;
+    border-top:1px solid rgb(172, 172, 172);
+    border-bottom:1px solid rgb(172, 172, 172);
+    font-size:0.8rem;
+}
+div#agreeTtl{
+    background-color: #f8f8f8;
+    line-height: 50px;
+    height: 50px;
+    position: relative;
+    border-bottom:1px solid rgb(172, 172, 172);
+}
+div#agreeTtl span:nth-child(1){position: absolute; top: 0%; left: 1%;}
+div#agreeTtl span:nth-child(2){position: absolute; top: 0%; left: 50%;}
+div#agreeTtl span:nth-child(3){position: absolute; top: 0%; left: 65%;}
+div#agreeEx{
+    line-height: 50px;
+    height: 50px;
+    position: relative;
+}
+div#agreeEx p:nth-child(1){position: absolute; top: 0; left: 1%;}
+div#agreeEx p:nth-child(2){position: absolute; top: 0; left: 50%;}
+div#agreeEx p:nth-child(3){position: absolute; top: 0; left: 65%;}
+
+tr#kidLetter p{
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+div#btnArea{
+    text-align: center;
+}
+div#btnArea input{
+	cursor: pointer;
+    margin: 10% 0;
+    display:inline-block;
+    width: 100px; height: 35px;
+    background-color: rosybrown;
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;    
+    box-sizing: border-box;
+}
+div#btnArea  input#prvBtn{
+    background: white;
+    border:1px solid rgb(172, 172, 172);
+    color:#666;
+}
+div#btnArea  input#nextBtn{
+    background-color: #ff6600;
+    border: 1px solid #ff6600;
+    color:white;
+    transition: all 0.4s ease 0s;
+}
+div#btnArea  input#nextBtn:hover{
+    border:1px solid black;
+    background-color:black;
+    color:white;
+}

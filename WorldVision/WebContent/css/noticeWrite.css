@@ -1,0 +1,77 @@
+/* contentWrap */
+div#contentWrap {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+h3#contentTitle a {
+	display: block;
+	height: 200px;
+	width: 80%;
+	font-size: 35px;
+	padding-top: 80px;
+	margin: 0 auto;
+	color: #ff6600;
+	box-sizing: border-box
+}
+
+h3#contentTitle a:visited {
+	color: #ff6600;
+}
+
+form {
+	margin: 0 auto;
+	width: 650px;
+	font-size: 15px;
+}
+
+form div#conArea input {
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-bottom: 17px;
+	height: 26px;
+}
+
+form input#title {
+	width: 365px;
+}
+
+form textArea#content {
+	height: 500px;
+	width: 650px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+div.buttons {
+	margin: 40px 0 60px;
+	text-align: center;
+}
+
+div.buttons input {
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 10px;
+	outline: 0;
+	cursor: pointer;
+}
+
+div.buttons input[type="reset"] {
+	color: #333;
+	border: 1px solid #333;
+}
+
+div.buttons input[type="button"] {
+	color: white;
+	background-color: #ff6600;
+	border: 1px solid #ff6600;
+	transition: all 0.4s ease 0s;
+}
+
+div.buttons input[type="button"]:hover {
+	color: white;
+	background-color: black;
+	border: 1px solid black;
+}

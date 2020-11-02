@@ -1,0 +1,159 @@
+div#contentWrap{
+    width: 80%; height: auto; 
+    margin: 0 auto;
+}
+h3#contentTitle{
+    height: 150px; width: 80%; 
+    margin: 0 auto;  
+    font-size: 2.3rem; 
+    color: #ff6600; 
+    padding-top: 65px;
+    box-sizing: border-box; 
+    border-bottom:1px solid rgb(207,207,207);
+}
+
+
+
+/* step */
+div#step{
+    height: 140px; width: 600px;
+    box-sizing: border-box; 
+    margin: 90px auto 100px auto;
+}
+div#step ul{
+    width: 100%; height: 40px;
+    margin: 0 auto;
+}
+div#step ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+div#step ul li span{
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #222;
+}
+
+
+
+
+
+
+/* 후원방식 */
+caption{display: none;}
+div#spon{
+    margin: 0 auto;
+    height: auto; width: 80%;
+}
+
+p.supTtl{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+p.exInfo{ margin-bottom: 10px;}
+
+table{
+    margin: 0 auto;
+    width: 100%;
+    border-top:1px solid rgb(66, 66, 66);
+    color: #666;;
+    font-size: 1rem;
+    border-spacing: 0;
+    font-size: 14px;
+}
+th{
+    width: 15%; height: 50px;
+    background-color: #f8f8f8;
+}
+td{padding-left: 15px; width:84%;}
+
+td label{margin-right: 20px;}
+
+table#supWay{margin-bottom: 50px;}
+table#busiSup{ 
+    border-top:1px solid rgb(172, 172, 172);
+}
+table#busiSup td{
+    padding: 8px 15px;
+    line-height: 23px;
+}
+
+
+#supPrice{display:none}
+#domKidPrice{display:none}
+#interKidPrice{display:none}
+#intBusiPrice{display:none}
+#domBusiPrice{display:none}
+#emerPrice{display:none}
+#norPrice{display:none}
+#ttlPrice{display:none}
+#total{display:none}
+
+
+
+p#supPrice{
+   margin-top:80px;
+    height: 50px;
+    background-color: #666;
+    color:white;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    line-height: 50px;
+}
+
+table#totalCalc tr td:first-child{
+    width: 160px;
+    height: 50px;
+    background-color: #f8f8f8;
+    
+}
+table#totalCalc select{width: 80px; height: 25px; color: #666;}
+
+table#totalCalc input{
+    width: 65px; height: 25px;
+    border: 1px solid #666;
+    color: #666;
+    padding-left:5px;
+    margin-right:3px;
+}
+
+
+div#total{
+    height: 50px;
+    background: #e5e5e5;
+    border-bottom: 1px solid #d5d5d5;
+    color: #333;
+    line-height: 50px;
+    font-size: 15px;
+    padding-left: 4%;
+    margin-bottom: 50px;
+}
+div#total p{
+    display: inline;
+    margin-left: 10%;
+}
+
+
+
+input#next{
+    display: block;
+    width: 150px; height: 52px;
+    background: #ff6600;
+    color:white;
+    line-height: 50px;
+    text-align: center;
+    margin: 80px auto;
+    font-size: 19px; font-weight: bold;
+    transition: all 0.4s ease 0s;
+    ouline:0; border:0;
+}
+input#next:hover{
+    background-color: black;
+    color: white;
+}
+

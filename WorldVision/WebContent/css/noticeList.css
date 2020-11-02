@@ -1,0 +1,182 @@
+/* contentWrap */
+div#contentWrap {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+h3#contentTitle a {
+	display: block;
+	height: 200px;
+	width: 80%;
+	font-size: 35px;
+	padding-top: 80px;
+	margin: 0 auto;
+	color: #ff6600;
+	box-sizing: border-box
+}
+
+h3#contentTitle a:visited {
+	color: #ff6600;
+}
+
+p#subTitle {
+	width: 80%;
+	color: #333;
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 auto 60px auto;
+}
+
+caption {
+	display: none;
+}
+
+div#tableBox {
+	width: 75%;
+	margin: 0 auto;
+}
+
+a#writeBtn {
+	display: inline-block;
+	width: 90px;
+	height: 35px;
+	background-color: #ff6600;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	font-size: 15px;
+	float: right;
+	margin-bottom: 10px;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+table tr th {
+	color: #666;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	background: #f8f8f8;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+table tr td {
+	color: rgb(102, 102, 102);
+	text-align: center;
+	padding: 14px 0 13px 0;
+	border-bottom: 1px solid #d9d9d9;
+	font-size: 14px;
+}
+
+table tr td a {
+	color: rgb(102, 102, 102);
+}
+
+table tr td a:visited {
+	color: rgb(102, 102, 102);
+}
+
+table tr td a:hover {
+	color: #0a79c4;
+	font-weight: bold;
+}
+
+tr th:nth-child(1), tr td:nth-child(1) {
+	width: 10%;
+}
+
+tr th:nth-child(2), tr td:nth-child(2) {
+	width: 50%;
+}
+
+tr th:nth-child(3), tr td:nth-child(3) {
+	width: 13%;
+}
+
+tr th:nth-child(4), tr td:nth-child(4) {
+	width: 18%;
+}
+
+tr td:nth-child(2) {
+	box-sizing: border-box;
+	text-align: left;
+	padding-left: 30px;
+}
+
+ul#pager {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+ul#pager li {
+	display: inline;
+	font-size: 16px;
+	float: left;
+	list-style: none;
+	margin: 0 8px;
+}
+
+ul#pager li a {
+	color: #878787;
+}
+
+ul#pager li a:hover {
+	color: #0a79c4;
+	font-weight: bold;
+}
+
+ul#pager li a.on {
+	color: #0a79c4;
+	font-weight: bold;
+}
+
+ul#pager img {
+	vertical-align: middle;
+}
+
+ul#searchBox {
+	width: 75%;
+	text-align: center;
+	padding: 12px 0;
+	margin: 20px auto 90px auto;
+	box-sizing: border-box;
+	background: #f8f8f8;
+}
+
+ul#searchBox li {
+	display: inline-block;
+}
+
+ul#searchBox select {
+	font-size: 14px;
+	color: #666;
+	width: 80px;
+	height: 24px;
+}
+
+ul#searchBox input[type="text"] {
+	height: 20px;
+	font-size: 14px;
+	padding-left: 7px;
+}
+
+ul#searchBox li input[type="submit"] {
+	width: 50px;
+	height: 24px;
+	color: white;
+	background-color: #97b0e6;
+	outline: 0;
+	border: 1px solid #a4a4ec;
+	cursor: pointer;
+	font-size: 12px;
+}
+}

@@ -1,0 +1,538 @@
+/* --------------------------PC 버젼 ----------------------------*/
+
+@media screen and (min-width:750px){
+
+    div#contentSurpport{
+        background: url(../menu/donation_images/donation01.jpg) no-repeat center center; 
+        background-size: cover; 
+        height: 350px; 
+    }
+
+    div#contentSurpport div{
+        width: 100%; height:100%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    div#contentSurpport p{
+        width: 80%; 
+        margin: 0 auto; 
+        color: white;
+    }
+    div#contentSurpport p:first-child{
+        padding-top: 130px; 
+        font-size: 2.5rem; 
+        font-weight: bold;
+    }
+    div#contentSurpport p:last-child{
+        padding-top: 15px; 
+        font-size: 1.5rem; 
+    }
+
+    /* contentWrap */
+    div#contentWrap{
+        width: 65%; 
+        height: auto; 
+        margin: 0 auto;
+    }
+
+
+    /* contentText */
+    div#contentText{
+        position: relative; 
+        padding-top: 90px; 
+        text-align: center; 
+        height: 300px;
+        margin: 130px auto 70px auto; 
+        border-top: 2px dotted rgb(207, 207, 207); 
+        border-bottom: 2px dotted rgb(207, 207, 207); 
+        box-sizing: border-box;
+    }
+    div#contentText p:first-child{
+        line-height: 65px; 
+        font-size: 33px; 
+        color: #ff6600;
+    }
+    div#contentText p:nth-child(2){ font-size: 20px; color: #999999;}
+    div#contentText p:last-child{ top: 283px;}
+    p.smallTitle{
+        width: 80px; 
+        position: absolute; left: 50%;     
+        transform: translateX(-50%); 
+        font-size: 20px; 
+        background-color: white; 
+        color: black;
+    }
+
+
+
+    /* contentChild */
+
+    /* 공통 */
+    div#contentChild{
+        margin: 0 auto;
+        width:80%;
+        height: 960px;  
+        border-bottom: 2px dotted rgb(207, 207, 207);
+    }
+    div#contentChild div.kidSupport p{color: white;}
+    div#contentChild div.kidSupport p:first-child{
+        font-weight: bold; 
+        padding-top: 130px; 
+        font-size: 33px; 
+        padding-bottom: 20px;
+    }
+    div#contentChild div.kidSupport p:nth-child(2){font-size: 20px; line-height: 35px;}
+    div#contentChild div.kidSupport a img{margin-top: 13px; margin-left: 10px;}
+
+    /* 후원하기 버튼 */
+    a.donationBtn{
+        transition: all ease 0.3s; 
+        width: 20%; height: 50px; 
+        display: block; 
+        background-color: rgba(0, 0, 0, 0.2); 
+        text-align: center; 
+        line-height: 45px; 
+        font-size: 17px; 
+        color: white; 
+        border: 1px solid white;
+        margin-top: 20px;
+    }
+    a.donationBtn:hover{
+        background-color: #ff6600; 
+        color: white; 
+        border: 1px solid #ff6600;
+    }
+
+
+
+    /* foreignKid */
+    div#contentChild div#foreignKid {
+        background: url(../menu/donation_images/donation02.jpg) no-repeat center center; 
+        background-size: cover; 
+        height: 400px; margin-bottom: 40px;
+        padding-left: 40px;
+    } 
+
+
+    /* domesticKid */
+    div#contentChild div#domesticKid{
+        position: relative;  background: url(../menu/donation_images/donation03.jpg) no-repeat center center;
+        background-size: cover; 
+        height: 400px;
+        position: relative; 
+    } 
+    div#contentChild div#domesticKid p{margin-right: 40px; text-align: right;}
+    div#contentChild div#domesticKid a{position: absolute; right:40px;}
+    div#contentChild div#domesticKid p#businessTitle{
+        color: black; 
+        position: absolute;
+        top: 505px; left: 50%;
+    }
+
+
+
+
+    /* contentBusiness */
+    div#contentBusiness{
+        position: relative;
+        margin: 70px auto;
+        width: 90%;  height: auto;
+        padding-bottom: 50px;
+        border-bottom: 2px dotted rgb(207, 207, 207); 
+    }
+
+    .scale {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transition: all 0.4s ease-in-out;   
+    }
+
+
+    .scale:hover {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+
+
+    div.bgwrap{
+        margin: 0% 0 2% 7.7%;
+        display: inline-block;
+        position: relative; 
+        width: 38%; height:auto; 
+        overflow: hidden;
+    }
+
+    div#contentBusiness div ul.btnArea{
+        position: absolute; 
+        bottom: 0; left: 0; 
+        width: 100%; height: auto;
+        background-color: rgba(0, 0, 0, 0.4); 
+        color: white; 
+        box-sizing: border-box;
+        padding: 2% 0 0 2%;
+    }
+
+    div#foreignSup{  
+        background: url(../menu/donation_images/donation04.jpg) no-repeat center center; 
+        background-size: cover; 
+        width:100%; 
+        padding-top: 120%;
+    }
+
+
+    div#domesticSup{
+        background: url(../menu/donation_images/donation05.jpg) no-repeat center center; 
+        background-size: cover; 
+        width:100%; 
+        padding-top: 120%;
+
+    }
+
+    div#emergencySup{
+        background: url(../menu/donation_images/donation06.jpg) no-repeat center center; 
+        background-size: cover; 
+        width:100%;
+        padding-top: 120%;
+
+    }
+
+    div#southKoreaSup{
+        background: url(../menu/donation_images/donation07.jpg) no-repeat center center; 
+        background-size: cover; 
+        width:100%;
+        padding-top: 120%;
+    }
+
+    ul.btnArea li:first-child{font-size: 1.2rem;}
+    ul.btnArea li:nth-child(2){
+        font-size: 0.9rem;
+        padding-top: 1%;
+    }
+
+    .businessBtn{
+        width: 36%; height: 40px;
+        margin: 2% 0;
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 35px;
+        border: 1px solid white;
+        transition: all ease 0.3s; 
+    }
+
+    .businessBtn:hover{
+        background-color: #ff6600;
+        border: 1px solid #ff6600;
+    }
+
+
+    div#contentBusiness p#specialTitle{ position: absolute; bottom: -10px;} 
+
+
+
+    /* special */
+    div#special{
+        position: relative; 
+        width: 80%; height: 350px; 
+        margin: 0 auto 190px auto;
+        background-color: rgb(235, 235, 235);
+    }
+    div#special div{
+        width: 40%; height: 210px;
+        background-color: rgb(255, 255, 255);
+    }
+    div#special div p:first-child{font-size: 1.3rem;}
+    div#special div p.specialText{
+        font-size: 1.1rem;
+        padding-top:3%;
+        color: #999;
+    }
+    div#special div a.specialBtn{
+        position: absolute;
+        bottom: 7%;
+        display: block; 
+        width: 50%; height: 20%; 
+        text-align: center; 
+        line-height: 38px; 
+        font-size: 1.2rem;
+        background-color: #ff6600; 
+        color: white;
+    }
+    div#special div a.specialBtn:hover{
+        background-color: #333333; 
+        color: white; 
+        transition: all ease 0.3s;
+    }
+    div#special div img{
+        position: absolute; 
+        top: 105px; right: 30px; 
+        width: 24%;
+    }
+    div#special div{
+        position: absolute;
+        top: 50px;
+        box-sizing: border-box;
+        padding: 2%;
+    }
+
+    div#special div#contentLeft{
+        position: absolute; 
+        top: 50px; left: 6%;
+    }
+    div#special div#contentRight{
+        position: absolute; 
+        top: 50px; right: 6%;
+    }
+
+
+    /* +박스 */
+    div#special div#firstSupport{ 
+        border-radius: 5px; 
+        position: absolute; top: 290px; left: 50%; 
+        transform: translateX(-50%);  
+        width: 84%; height: 130px; 
+        background-color: white; 
+        border: 2px solid#46bc96;
+        padding: 2% 0 0 5%;
+    }
+    div#special div#firstSupport p#supportTitle{
+        font-size: 1.1rem;  
+        font-weight: bold;
+    }
+    div#special div#firstSupport p#supportText{
+        font-size: 0.9rem;
+        margin-top: 1%;
+        width:60%;
+    }
+
+    /* 버튼 */
+    div#special div#firstSupport a{
+        position: absolute; 
+        top: 25px; right: 20px; 
+        width: 24%; height:78px; 
+        display: block; background-color: #46bc96;
+        text-align: center; 
+        font-size: 15px; 
+        box-sizing: border-box; 
+        padding-top: 17px; 
+        color: white; border-radius: 5px; 
+    }
+    div#special div#firstSupport a:hover{box-shadow: 3px 3px 3px 3px #e2e2e2;}
+    div#special div#firstSupport img{
+        width: 3%; 
+        position: absolute;
+        top: 15%; left:2%;
+    }
+
+    div#mobileType{display: none;}
+
+}
+
+.up-on-scroll{
+  transition: transform 1.4s, opacity 2s;
+}
+
+
+
+
+/* -----------------------모바일버젼------------------------  */
+
+@media screen and (max-width:749px){
+
+    div#contentSurpport{
+        background: url(../menu/donation_images/donation01.jpg) no-repeat center center; 
+        background-size: cover; 
+        height: 350px; 
+    }
+
+    div#contentSurpport div{
+        width: 100%; height:100%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    div#contentSurpport p{
+        width: 80%; 
+        margin: 0 auto; 
+        color: white;
+        text-align: center;
+    }
+
+    div#contentSurpport p:first-child{
+        padding-top: 130px; 
+        font-size: 3rem; 
+        font-weight: bold;
+    }
+    div#contentSurpport p:last-child{
+        padding-top: 15px; 
+        font-size: 1.6rem; 
+        line-height: 2.2rem;
+    }
+
+    /* contentWrap */
+    div#contentWrap{
+        width: 90%; 
+        height: auto; 
+        margin: 0 auto;
+    }
+
+    /* contentText */
+    div#contentText{
+        padding-top: 50px; 
+        text-align: center; 
+        height: 200px;
+        margin: 70px auto 70px auto; 
+        border-top: 2px dotted rgb(207, 207, 207); 
+        border-bottom: 2px dotted rgb(207, 207, 207); 
+        box-sizing: border-box;
+    }
+
+    div#contentText p:first-child{
+        line-height: 65px; 
+        font-size: 2.5rem; 
+        color: #ff6600;
+    }
+    div#contentText p:nth-child(2){ 
+        font-size: 1.8rem; color: #999999;
+    }
+    
+    p.smallTitle{
+        display: none;
+    }
+
+    .accordion_content{
+        position: relative;
+    }
+
+    .textWrap{
+        box-sizing: border-box;
+        color: white;
+        text-align: center;
+        padding: 65px 20px 0 20px;
+    }
+
+    .textWrap p{
+        margin-top: 10%;
+        font-size: 1.7rem;
+    }
+    
+
+
+    /* 후원하기 버튼 */
+    a.supportBtn{
+        width: 30%; height: 40px; 
+        display: block; 
+        background-color: #ff6600; 
+        text-align: center; 
+        line-height: 40px;
+        font-size: 1.3rem; 
+        color: white; 
+        position: absolute;
+        top:60%; right: 10%;
+    }
+ 
+    a.moresee{
+        display: block;
+        width: 30%; height:40px;
+        text-align: center; 
+        line-height: 40px; 
+        font-size: 1.3rem; 
+        position: absolute;
+        top:60%; left: 10%;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.589); 
+        color: #333; 
+
+    }
+
+    /* 아코디언배경 */
+
+    div#foreignKid {
+        background: url(../menu/donation_images/support1.PNG) no-repeat center center; 
+        background-size: cover; 
+        width: 100%; height: 400px;
+    } 
+
+
+    div#domesticKid{
+        position: relative;  background: url(../menu/donation_images/support2.PNG) no-repeat center center;
+        background-size: cover; 
+        width: 100%; height: 400px; 
+    } 
+
+    div#foreignSup{  
+        background: url(../menu/donation_images/donation04.jpg) no-repeat center center; 
+        background-size: cover; 
+        width:100%; height: 400px;
+    }
+
+
+    div#domesticSup{
+        background: url(../menu/donation_images/donation05.jpg) no-repeat center center; 
+        background-size: cover; 
+        width:100%; height: 400px;
+    }
+
+    div#emergencySup{
+        background: url(../menu/donation_images/donation06.jpg) no-repeat center center; 
+        background-size: cover; 
+        width:100%; height: 400px;
+    }
+
+    div#southKoreaSup{
+        background: url(../menu/donation_images/donation07.jpg) no-repeat center center; 
+        background-size: cover; 
+        width:100%; height: 400px;
+    }
+
+    div#contentLeft{
+        background: url(../menu/business_images/business2.jpg) no-repeat center center;
+        background-size: cover; 
+        width:100%; height: 400px;
+    }
+
+    div.specialWrap{
+        width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.45);
+        padding: 30px 10px 0 10px;
+        text-align: center;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    /* 아코디언 텍스트 */
+    p.item_title{
+        font-size: 2rem; font-weight: bold;
+    }
+
+    .tex.specialWraptWrap p:first-child{
+        font-size: 2rem; font-weight: bold;
+    }
+    .specialWrap p:nth-child(2){
+        margin-top: 3%;
+        font-size: 1.6rem;
+    }
+
+    /* 버튼위치 */
+    div#comSupport{margin-bottom: 90px;}
+
+    div#comSupport a.moresee{
+        top: 35%;
+    }
+    div#comSupport a.supportBtn{
+        top: 35%;
+    }
+    div#hSupport  a.moresee{
+        top: 83%;
+    }
+    div#hSupport a.supportBtn{
+        top: 83%;
+    }
+
+    div#basicType{display: none;}
+}

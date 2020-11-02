@@ -1,0 +1,89 @@
+/*이메일 중복확인 창*/
+#wrap {
+	width: 490px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+
+#chk {
+	text-align: center;
+}
+
+#cancelBtn {
+	visibility: visible;
+}
+
+#useBtn {
+	visibility: hidden;
+}
+
+/*입력창 규격 */
+form input {
+	height: 40px;
+}
+
+input#userId {
+	padding-left: 5px;
+}
+
+/*중복확인 버튼*/
+input#chkBtn {
+	width: 90px;
+	color: #333;
+	border: 1px solid #333;
+	background-color: white;
+	outline: 0;
+	margin-top:30px;
+	cursor: pointer;
+}
+
+/*하단 취소,사용하기 버튼*/
+input.bottomBtn {
+	width: 90px;
+}
+
+input#cancelBtn {
+	width: 90px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	background-color: #ff6600;
+	color: white;
+	transition: all 0.4s ease 0s;
+}
+
+input#cancelBtn:hover {
+	color: white;
+	background-color: black;
+}
+
+input#useBtn {
+	width: 90px;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	background-color: #ff6600;
+	color: white;
+	transition: all 0.4s ease 0s;
+	margin-top: -40px;
+}
+
+input#useBtn:hover {
+	color: white;
+	background-color: black;
+}
+
+/*결과따라 나타나는 문자구역*/
+P#pTxt {
+	color: green;
+	font-size: 12px;
+	margin: 0 0 14px 0;
+}
+
+div#msg {
+	color: #333;
+	height: 20px;
+	font-size: 14px;
+}

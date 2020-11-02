@@ -1,0 +1,101 @@
+/* --------------------------PC 버젼----------------------------*/
+
+@media screen and (min-width:750px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 80%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 80%; height: 150px;  
+        margin: 0 auto;  
+        font-size: 30px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+	div#innerBox{	
+		margin:150px auto;
+		text-align:center;
+	}
+
+	div#innerBox a{
+		display:inline-block;
+		width:200px; height:70px;
+		border-radius: 10px 10px 10px 10px;
+		transition: all 0.4s ease 0s;
+		line-height:70px;
+		font-size:17px; color:#333;
+		margin:0 30px;
+	}
+	div#innerBox a#myPg{
+		background-color: #ff6600;
+		color:white;	
+	}
+	div#innerBox a#myPg:hover{
+		background-color: black;
+	}
+	div#innerBox a#leave{
+		background-color: rgb(240,240,240);
+		color:#333;	
+	}
+	
+    div#innerBox a#leave:hover{
+    	background:black;
+    	color:white;
+    }
+  
+}
+
+/* --------------------------반응형 버젼 ----------------------------*/
+
+@media screen and (max-width:749px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 90%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 100%; height: auto;  
+        margin: 0 auto;  
+        font-size: 28px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        padding-bottom: 6px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+	div#innerBox{
+		width:80%;
+		height: auto;
+		border: 5px solid rgb(237,237,237);
+		margin: 90px auto;
+		padding : 5%;
+		color:#666;
+		text-align:center;
+	}
+	
+	div#innerBox a{
+		display:inline-block;
+		width:110px; height:50px;
+		border-radius: 10px 10px 10px 10px;
+		transition: all 0.4s ease 0s;
+		line-height:50px;
+		font-size:13px; color:#333;
+		margin:0 2%;
+	}
+	
+	div#innerBox a#myPg{
+		background-color: #ff6600;
+		color:white;	
+	}
+	
+	div#innerBox a#leave{
+		background-color: rgb(240,240,240);
+		color:#333;	
+	}
+
+}

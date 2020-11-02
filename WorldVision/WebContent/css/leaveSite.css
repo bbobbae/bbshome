@@ -1,0 +1,157 @@
+/* --------------------------PC 버젼----------------------------*/
+
+@media screen and (min-width:750px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 80%; height: auto;
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 80%; height: 150px;  
+        margin: 0 auto;  
+        font-size: 30px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+	div#innerForm{
+		width:650px; height:auto;
+		margin:0 auto;
+		padding:80px 50px 70px;
+		color:#333;
+	}
+    div#innerForm ul li{
+    	position:relative;
+    }
+  	p#ttlTxt{
+  		font-size:19px;
+  		margin-bottom:60px;
+  	}
+  	p#subTtl{
+  		font-weight:bold;
+  		font-size:17px;
+  		color:#ff6600;
+  		margin-bottom:30px;
+  	}
+  	p.listTtl{font-weight:bold;}
+  	p#point{color#ff6600;}
+  	div#innerForm ul li{
+  	margin-top:40px;   
+  	line-height:22px;	
+  	}
+  
+  	span.num{
+  		font-size:34px;
+  		font-weight:bold;
+  		height:110px;
+		margin-bottom:5px;
+  	}
+  	div.pBox{
+  		width:650px;
+  	}
+  	
+  	div#bottomBtn{
+  		height: 150px;  
+        margin: 80px auto 0;  
+        font-size: 15px; 
+        color: #333; 
+        padding-top: 25px;
+        text-align:center;
+        box-sizing: border-box; 
+        border-top:1px solid rgb(207,207,207); 
+  	}
+  	
+  	div#bottomBtn label{padding-left:5px;}
+  	input#txtChk{margin-bottom:50px;}
+  	input#fnlBtn{
+  		transition: all 0.4s ease 0s;
+  		width:100px; height:40px;
+  		background-color:#ff6600; color:white;
+  		ouline:0; border:0;
+  		font-size:15px;
+  	}
+  	input#fnlBtn:hover{
+  		background-color:black;
+  		color:white;
+  	}
+  	
+  	
+  	
+  	
+}
+
+/* --------------------------반응형 버젼 ----------------------------*/
+
+@media screen and (max-width:749px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 90%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 100%; height: auto;  
+        margin: 0 auto;  
+        font-size: 22px; 
+        color: #ff6600; 
+        padding-top: 30px;
+        padding-bottom: 10px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207); 
+    }
+
+	div#innerForm{
+		margin:0 auto;
+		color:#333;
+	}
+    div#innerForm ul li{
+    	position:relative;
+    }
+  	p#ttlTxt{
+  		font-size:15px;
+  		margin:10px 0 25px;
+  	}
+  	p#subTtl{
+  		font-weight:bold;
+  		font-size:15px;
+  		color:#ff6600;
+  		margin-bottom:20px;
+  	}
+  	p.listTtl{font-size:14px; font-weight:bold;}
+  	p.ex{font-size:13px;}
+  	p#point{font-size:13px; color:#ff6600;}
+  	div#innerForm ul li{
+  		margin-top:20px;   
+  		line-height:18px;	
+  	}
+  
+  	span.num{
+  		font-size:19px;
+  		font-weight:bold;
+  		height:60px;
+		margin-bottom:5px;
+  	}
+  	
+  	div#bottomBtn{
+  		height: 150px;  
+        margin: 32px auto 20px;  
+        font-size: 15px; 
+        color: #333; 
+        padding-top: 15px;
+        text-align:center;
+        box-sizing: border-box; 
+        border-top:1px solid rgb(207,207,207); 
+  	}
+  	
+  	div#bottomBtn label{padding-left:5px;}
+  	input#txtChk{margin-bottom:35px;}
+  	input#fnlBtn{
+  		width:100px; height:40px;
+  		background-color:#ff6600; color:white;
+  		ouline:0; border:0;
+  		font-size:15px;
+  	}
+  
+
+}

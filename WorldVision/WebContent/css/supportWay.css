@@ -1,0 +1,229 @@
+div#contentWrap{
+    width: 80%; height: auto; 
+    margin: 0 auto;
+}
+h3#contentTitle{
+    height: 150px; width: 80%; 
+    margin: 0 auto;  
+    font-size: 2.3rem; 
+    color: #ff6600; 
+    padding-top: 65px;
+    box-sizing: border-box; 
+    border-bottom:1px solid rgb(207,207,207);
+}
+
+/* step */
+div#step{
+    height: 140px; width: 600px;
+    box-sizing: border-box; 
+    margin: 90px auto 100px auto;
+}
+div#step ul{
+    width: 100%; height: 40px;
+    margin: 0 auto;
+}
+div#step ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+div#step ul li span{
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #222;
+}
+div#spon {
+    width: 80%; height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* 후원내용 */
+caption{display: none;}
+div.supTitle{
+    margin: 50px 0 10px ;
+    color:#444;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+table#supResult{
+    width: 100%;
+    border-spacing: 0;
+    border-top:1px solid rgb(66, 66, 66);
+    border-bottom:1px solid rgb(172, 172, 172);
+    font-size: 1rem;
+}
+
+table#supResult tr{
+    font-size: 0.9rem;
+    color: #555;
+    border-bottom: rgb(172, 172, 172);
+}
+table#supResult tr td:first-child{
+    width: 20%;
+    height: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+table#supResult tr td:nth-child(2){
+    padding-left: 1%;
+}
+table#supResult input{
+    width: 10%; height: 25px;
+    border: 1px solid #666;
+    color: #666;
+}
+
+div#total{
+    height: 50px;
+    background: #e5e5e5;
+    border-bottom: 1px solid #d5d5d5;
+    color: #333;
+    line-height: 50px;
+    font-size: 15px;
+    padding-left: 8%;
+    margin-bottom: 50px;
+}
+div#total p{
+    display: inline;
+    margin-left: 10%;
+}
+
+
+/* 후원금납입방법 */
+table.tbForm th span{color: #ff6600;}
+.exColor{
+	margin-left: 5px;
+    color:#D24804;
+    font-size: 0.8rem; 
+    vertical-align: middle;
+}
+
+p.priceEx{ margin:40px 0;}
+
+
+table.tbForm{
+    width: 100%;
+    color: #666;
+    border-spacing: 0;
+    border-top:1px solid rgb(172, 172, 172)
+}
+table.tbForm th{
+    padding: 15px 0;
+    width: 17%; height: auto;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom:1px solid rgb(172, 172, 172);
+}
+table.tbForm td{
+    padding: 15px 0 15px 10px;
+    border-bottom:1px solid rgb(172, 172, 172);
+}
+
+tr#cardNum p#cardEx{margin-top: 3px;}
+
+tr#cardNum input{ width: 40px;}
+
+
+table#payBank{
+    width: 100%;
+    height: 50px;    
+    border-top:1px solid rgb(172, 172, 172);
+}
+table#payBank label{
+    margin: 0 10px 0 4px;
+}
+
+div#supporter{
+    height: auto;
+}
+
+table select,table input[type=text],table input[type=password] {
+	width:115px;
+    height: 25px;
+    padding-left: 1%;
+    color: #666;
+    border: 1px solid #CECAC5;
+}
+td#limit select{
+    width: 65px;
+}
+input[type="checkbox"]{
+    vertical-align: middle;
+}
+tr#payDay p{
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+}
+table#suportLgn{
+    border-top: 1px solid rgb(66, 66, 66);
+}
+
+a.bankBtn{
+	height:19px;
+	display:inline-block;
+	margin:0 0 4px 5px;
+    background: #595959;
+    font-size: 0.8rem;
+    color: #fff;
+    padding:4px 5px;
+}
+tr#dayCh label{
+	font-size: 0.95rem;
+    margin-left: 4px;
+}
+
+p#dayChk{
+	margin-top:5px;
+	line-height: 1.2rem;
+    font-size: 0.8rem;
+}
+
+
+/*버튼*/
+div#btnArea{ text-align: center;}
+div#btnArea input{
+	margin: 10% 0;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    line-height: 32px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input#prvBtn{
+	background: white;
+    border: 1px solid rgb(172, 172, 172);
+    color: #666;
+}
+  
+input#nextBtn{
+    background-color: #ff6600;
+    border: 1px solid #ff6600;
+    color: white;
+    transition: all 0.4s ease 0s;
+ }
+       
+input#nextBtn:hover{
+    background-color: black;
+    border:1px solid black;
+    color: white;
+}
+
+
+
+
+
+    
+    
+    
+    
+
+

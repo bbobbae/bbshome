@@ -1,0 +1,241 @@
+/* --------------------------PC 버젼 ----------------------------*/
+
+@media screen and (min-width:750px){
+        
+
+    /* businessTop */
+    div#businessTop{
+        background: url(../menu/business_images/annual_report_bg_01.jpg)no-repeat center center; 
+        background-size: cover; height: 350px;
+    }
+    div#businessTop p{
+        width: 80%; margin: 0 auto; 
+        color: #333;
+    }
+    div#businessTop p:first-child{
+        padding-top: 130px; font-size: 3.1rem; 
+        font-weight: bold;
+    }
+    div#businessTop p:last-child{
+        padding-top: 15px; font-size: 1.7rem; 
+    }
+
+
+    /* contentWrap */
+    div#contentWrap{
+        width: 100%; 
+        height: auto; 
+        margin: 0 auto;
+        
+    }
+    div.BusinessContent{
+        width: 100%; height: auto; 
+        text-align: center; 
+        margin-top: 30px;
+        padding-bottom: 4%;
+    }
+
+    div.center{
+        position: relative;
+        width: 65%; height: 100%;
+        margin: 0 auto;
+    }
+
+    p.businessTitle{
+        padding: 60px 0 30px 0; 
+        font-size: 2.7rem;
+        font-weight: bold; color: #333333;
+    }
+    div p.businessText{
+        padding: 30px 0; font-size: 1.3rem; 
+        line-height: 30px; color: #333333;
+    } 
+
+    div.contentTab{
+        margin-top: 5%;
+        display: inline-block;
+    }
+
+    p.countText{ 
+        position: absolute;
+        font-size: 1.3rem;
+        color: #333;
+        width: 34%; height: auto;
+        display: inline-block;
+    
+    }
+
+    p.countText span{
+        color: #ff6600;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    div.contentTab ul{
+        margin-top: 18%;
+        display: inline-block;
+        width: 51%; 
+        height: auto;
+    }
+
+    div.contentTab ul li{
+        margin-left: 1%; 
+        margin-bottom: 2%; 
+        display: inline-block; 
+        padding-top:3%;
+        box-sizing: border-box; 
+        text-align: center; 
+        width: 140px; 
+        height: 95px; 
+        background-color: white;
+        border: 1px solid #c9c9c9;
+        overflow: hidden;
+    }
+
+    div.contentTab ul li a{
+        color:#333;
+        font-size: 14px;
+    }
+
+    div.contentTab ul li:hover{box-shadow: 3px 3px 5px 3px #c7c7c796;}
+
+
+    div.contentTab ul li a img{
+        display: block; 
+        padding-bottom: 10px; 
+        width: 32px; 
+        margin: 0 auto;
+    }
+
+    div.contentTab>img{
+        width: 280px; height: auto;
+        display: inline-block;
+    }
+
+
+    div#foreign p.countText{
+        top: 45%; right: 16%
+    }
+
+    /* domestic */
+    div#domestic{background-color: rgba(248, 241, 228, 0.473)}
+    div#domestic p.countText{
+        top: 45%; left: 18%
+    }
+    /* north */
+    div#north ul li{
+        margin: 1% 1%;
+    }
+    div#north p.countText{
+        top: 45%; right: 16%
+    }
+
+    /* advocacy */
+    div#advocacy{background-color: rgba(248, 241, 228, 0.473)}
+    div#advocacy ul{ 
+        position: absolute;
+        bottom: 5%; left: 2%;
+    }
+    div#advocacy p.countText{
+        top: 55%; left: 10%
+    }
+    div#advocacy img#advocacyPhoto{margin-left: 55%;}
+
+    div#mobileType{display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+/* -----------------------모바일버젼------------------------  */
+
+@media screen and (max-width:749px){
+    div#pcType{display: none;}
+
+    /* businessTop */
+    div#businessTop{
+        background: url(../menu/business_images/annual_report_bg_01.jpg)no-repeat center center; 
+        background-size: cover; height: 350px;
+    }
+    div#businessTop p{
+        width: 80%; margin: 0 auto; 
+        text-align: center;
+        color: #333;
+    }
+    div#businessTop p:first-child{
+        padding-top: 130px; font-size: 3rem; 
+        font-weight: bold;
+    }
+    div#businessTop p:last-child{
+        padding-top: 15px; font-size: 1.6rem;
+        line-height: 2.2rem; 
+    }
+
+    div#contentWrap{
+        width: 90%; 
+        height: auto; 
+        margin: 70px auto;
+    }
+
+    div#foreign{
+        background: url(../menu/business_images/22.PNG)no-repeat center center;
+        background-size: cover;
+        width: 100%; height: 400px;
+    }
+    div#domestic{
+        background: url(../menu/business_images/donation05.jpg)no-repeat center center;
+        background-size: cover;
+        width: 100%; height: 400px;
+    }
+    div#north{
+        background: url(../menu/business_images/north4.PNG)no-repeat center center;
+        background-size: cover;
+        width: 100%; height: 400px;
+    }
+    div#advocacy{
+        background: url(../menu/business_images/45.PNG)no-repeat center center;
+        background-size: cover;
+        width: 100%; height: 400px;
+    }
+
+    div.textWrap{
+        width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    p.businessTitle{    
+        padding: 40px 20px 10px 20px;
+        color: white;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    div.detailBtn{
+        width: 90%;
+        margin:  5% auto;
+    }
+    div.detailBtn a{
+        display: inline-block;
+        width: 47%; height: 40px; 
+        box-sizing: border-box;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.589); 
+        text-align: center; 
+        line-height: 35px;
+        font-size: 1.3rem; 
+        color: #333; 
+        margin: 1%;
+    }
+  
+    div#north .businessTitle{
+        padding: 65px 20px 20px 30px;
+    }
+    div#advocacy .businessTitle{
+        padding: 65px 20px 20px 30px;
+    }
+
+}

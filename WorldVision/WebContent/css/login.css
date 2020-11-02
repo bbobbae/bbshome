@@ -1,0 +1,207 @@
+
+/* --------------------------PC 버젼 ----------------------------*/
+
+@media screen and (min-width:750px){
+    h3#contentTitle{
+    height: 200px; width: 80%; 
+    font-size: 34px; 
+    padding-top: 80px;
+    margin: 0 auto; 
+    color: #ff6600; 
+    box-sizing: border-box
+    }
+    
+    div#contentWrap{
+    width: 90%; height: auto; 
+    margin: 0 auto;
+    }
+    
+    
+    /*boxInput 영역*/
+    div#boxInput {
+        width: 366px; height: 270px;
+        margin: 0 auto;  box-sizing: border-box;
+    }
+    div#boxInput ul li.top {
+        width: 323px; height: 20px; 
+        border: 1px solid #dadada; padding: 11px 41px 11px 0; 
+        margin-bottom: 6px; position: relative;
+    }
+    li.top .personal:focus {outline:none;}
+    
+    li.top input.personal {
+        width: 300px; 
+        position: absolute; left: 14px; top: 13px; 
+        color: black; line-height: 18px; 
+        opacity: 0.8; border: none;
+    }
+    
+    ul#hold li p{
+        color: red; padding: 0 0 6px 1px; 
+        font-size: 11px; display: none;
+    }
+    
+    /*checkbox영역*/
+    div#center {margin-top: 20px; font-size: 14px; letter-spacing: -1px;}
+    
+    
+    /* btn 영역*/
+    #btn {
+        width: 366px; height: 50px; 
+        display: block;  color: white;
+        background: #ff6600; text-align: center; 
+        line-height: 50px; margin-top: 30px;
+        font-weight: 700; outline: 0; border:0; 
+        cursor: pointer; font-size: 16px;
+    }
+        
+    /*serchBox 영역*/
+    
+    #serch { 
+        position: relative; margin-top: 24px; 
+        width: 100%; height: 15px; line-height: 15px;
+    }
+    
+    #serch li{display: inline-block; text-align: center; width: 180px;}
+    
+    #serch li a{ line-height: 13px; font-size: 14px; font-weight: 600; color: #333333;}
+    
+    #serch li::before{ content: ""; display: block; 
+        position: absolute; top: 4px; height: 13px; 
+        border-left: 1px solid  #c4c1c1;
+    }
+    #serch li:first-child::before {border-left: 1px solid white;}
+
+
+    /* content_Personal */
+
+    div#content_Personal{width:70%; height:210px; margin: 90px auto;}
+
+    div#content_Personal>div{position: relative; margin-bottom: 20px;}
+
+    div#content_Personal div img{display: block; width:35px; padding: 35px 35px;}
+
+    div#content_Personal div.personalText{
+        font-size: 14px; width: 60%; 
+        position: absolute; top: 15px; left: 110px;
+    }
+
+    div#content_Personal div a{ 
+        transition: all 0.4s ease 0s; 
+        background-color:#fff; color: #333333;
+        border: 1px solid #333333; font-size: 14px;
+        text-align: center; padding-top: 13px; 
+        box-sizing: border-box; display: block; 
+        width: 120px; height: 65px; 
+        position: absolute; top:35px; right: 20px;
+    }
+
+    div#content_Personal div a:hover{background-color: #595853; color: white;}
+
+    div#content_Personal div div p:first-child{color: #ff6600; line-height: 30px; font-size: 14px;}
+
+    div#content_Personal div div p:last-child{font-size: 14px; color: #333333;}
+}
+
+
+
+/* -----------------------모바일버젼------------------------  */
+
+@media screen and (max-width:749px){
+    h3#contentTitle{
+        width: 100%;  height: 140px;  
+        font-size:28px; padding-top: 40px; 
+        margin: 0 auto; color: #ff6600; 
+        box-sizing: border-box
+    }
+
+    div#contentWrap{
+        width: 90%; height: auto; 
+        margin: 0 auto;
+    }
+        
+        
+    /*boxInput 영역*/
+    div#boxInput {
+        width: 100%; height: 220px;
+        margin: 0 auto;  box-sizing: border-box;
+    }
+
+    div#boxInput ul li.top {
+        width: 100%; height: 40px; 
+        border: 1px solid #dadada;
+        margin-bottom: 6px; position: relative;
+    }
+    li.top .personal:focus {outline:none;}
+    
+    li.top input.personal {
+        width: 60%; 
+        position: absolute; left: 14px; top: 13px; 
+        color: #333; line-height: 14px; 
+        opacity: 0.8; border: none;
+    }
+    
+    ul#hold li p{
+        color: red; padding: 0 0 6px 1px; 
+        font-size: 11px; display: none;
+    }
+    
+    /*checkbox영역*/
+    div#center {margin-top: 20px; font-size: 13px; letter-spacing: -1px;}
+    
+    
+    /* btn 영역*/
+    #btn {
+        width: 100%; height: 50px; 
+        display: block;  color: white;
+        background: #ff6600; text-align: center; 
+        line-height: 50px; margin-top: 30px;
+        font-weight: 700; outline: 0; border:0; 
+        cursor: pointer; font-size: 14px;
+    }
+        
+    /*serchBox 영역*/
+    
+    #serch { 
+        position: relative; margin-top: 24px; 
+        width: 100%; height: 15px; line-height: 15px;
+    }
+    
+    #serch li{display: inline-block; text-align: center; width: 48%;}
+    
+    #serch li a{ line-height: 13px; font-size: 13px; color: #333333;}
+    
+    #serch li::before{ content: ""; display: block; 
+        position: absolute; top: 4px; height: 13px; 
+        border-left: 1px solid  #c4c1c1;
+    }
+    #serch li:first-child::before {border-left: 1px solid white;}
+
+    /* content_Personal */
+
+    div#content_Personal{
+        width: 100%; height:230px; 
+        margin: 90px auto;
+    }
+
+    div#content_Personal>div{ margin-bottom: 30px;
+    }
+
+    div#content_Personal div img{display: inline-block; width:23px; }
+
+    div#content_Personal div.personalText{display: inline-block;}
+
+    div.personalText p:nth-child(2){display: none;}
+
+    div#content_Personal div a{ 
+        display: block;
+        width: 100%; height: 50px;
+        text-align: center;
+        background-color: white;
+        border: 1px solid #ff6600;
+        margin: 10px auto; font-size: 13px;
+        padding-top: 10px; color:#333;
+    }
+
+    div#content_Personal div div p:first-child{color: #ff6600; line-height: 30px; font-size: 13px;}
+}

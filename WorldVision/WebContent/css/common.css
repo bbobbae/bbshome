@@ -1,0 +1,289 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0;}
+li {list-style-type: none;}
+a {text-decoration: none;}
+/*img {vertical-align: top;}*/
+body {font-family:"Malgun Gothic","Dotum",sans-serif; background-color: white;}
+html{font-size: 14px;}
+
+
+@media (min-width: 200px) {
+    html { font-size: 55%; }
+}
+@media (min-width: 300px) {
+    html { font-size: 60%; }
+}
+@media (min-width: 500px) {
+    html { font-size: 70%; }
+}
+@media (min-width: 700px) {
+    html { font-size: 80%; }
+}
+
+@media (min-width: 1100px) {
+    html { font-size: 95%; }
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 100%; }
+}
+
+
+/* --------------------------PC 버젼 ----------------------------*/
+@media screen and (min-width:750px){
+    div#my-header{display: none;}
+    
+    /* header */
+    div#firstTop { 
+        width: 90%; height: 30px; 
+        text-align: right; line-height: 30px; 
+        font-size: 0.9rem;  margin: 5px auto 0 auto;
+    }
+
+    div#firstTop a{padding-left: 15px; color: #333333;}
+
+    /* 고정 메뉴바 */
+    nav#pcmenu {
+        position: sticky; top: 0;  
+        width: 100%; height: 70px; 
+        background-color: rgba(255, 255, 255, 0.8);
+        z-index: 9999; border-bottom: 1px solid rgb(207, 207, 207);
+    }
+
+    nav#pcmenu>div{
+        width:90%; height: auto;
+        margin: 0 auto; 
+        overflow: hidden;
+    } 
+
+    nav#pcmenu ul#menuList{ 
+        padding-top: 10px;
+    }
+
+    nav#pcmenu ul#menuList>li{
+        float:left; 
+        line-height: 44px;
+        width: 11.5%;
+    }
+    nav#pcmenu ul#menuList>li:first-child{width: 170px;}
+    nav#pcmenu ul#menuList>li:nth-child(5){width: 10.5%;}
+
+    nav#pcmenu ul#menuList li a h2{
+        color: #161616; 
+        font-weight: bold; 
+        font-size: 1.3rem; 
+        transition: all ease 0.3s;
+        padding-bottom: 7px;
+    }
+    nav#pcmenu ul#menuList li a h2:hover{color: #f37021;}
+
+    nav#pcmenu ul ul.sub{
+        margin-top: 10px;
+        display:none; width:130px;
+    }
+
+    nav#pcmenu ul ul.sub li a{
+        background-color: rgba(0, 0, 0, 0.223);
+        width: 100%;
+        display: inline-block;
+        color: white; 
+        padding-left: 5px; 
+        font-size: 1rem;
+        transition: all ease 0.3s;
+    }
+
+    nav#pcmenu ul ul.sub li a:hover{
+        color: white; 
+        background-color: #ff6600;
+    }
+    nav#pcmenu ul#menuList li:hover ul.sub{display:block; }
+
+    div#firstTop img#joinlogo{display: none;}
+
+    /* 후원버튼 */
+    nav#pcmenu #sponsorButton{ 
+        float: right;
+        transition: all ease 0.3s; 
+        border-radius: 150px; 
+        width: 8rem; height: 38px; 
+        color:#ff9900; 
+        background-color: white;
+        line-height: 36px; 
+        font-size: 1rem; 
+        text-align: center; 
+        border: 2px solid #ff9900; 
+        outline: 0;
+        margin-top: 5px;
+    }
+
+    nav#pcmenu #sponsorButton:hover{
+        background-color: #ff9900; 
+        color: white;
+    } 
+
+
+
+
+    /* -----------------------footer------------------------  */
+    footer{
+        width: 100%; height: auto; 
+        border-top: 1px solid rgb(207, 207, 207);
+    } 
+
+    div#bottom{
+        width: 90%; height: 280px; 
+        margin: 40px auto; 
+    }
+
+    div.footerDetail{float: left;}
+
+    div#fast div{float: left; width: 105px;}
+
+    div#fast div#fast_right{width: 179px;}
+
+    /* info */
+    div#companyInfo{
+        width: 26%; height:auto;
+        padding-left: 4%;
+    }
+    div#companyInfo img{width: 160px; padding-bottom: 20px;}
+    div#companyInfo p{font-size: 14px; line-height: 25px;}
+
+    /* 바로가기 */
+    div#fast{padding: 0 4%; width:38%; height:auto;}
+
+    div#fast>div{margin-bottom: 10px;}
+
+    p.footerTitle{
+        display: block; color: #f37021; 
+        padding: 20px 0px; font-size: 16px; 
+        font-weight: bold;
+    }
+    div#fast div ul li a{
+        color: #333333; font-size: 14px; line-height: 25px;
+    }
+
+    /* connect */
+    div#connect{
+        width:24%; height: auto;
+    }  
+
+    div#connect ul li{
+        width: 115px; display: inline-block;
+        padding: 0 0 16px 0; font-size: 14px;
+        line-height: 10px;
+        }
+    div#connect ul li a{color: #333333;}
+
+    div#connect ul li a .fab{font-size: 18px; padding-right:5px; color: #333;}
+
+    div#connect select{
+        display: block;
+        width: 160px; height: 35px; 
+        margin-bottom: 5px;
+    }
+
+    div#bottomText{
+        display: none;
+    }
+
+}
+
+
+/* --------------------------모바일 버젼 ----------------------------*/
+
+@media screen and (max-width:749px){
+    
+    .mburger {--mb-bar-height: 3px;}
+
+    div#my-header{
+        position: absolute;
+        top: -6px; left: 0;
+    }
+    div#my-header ul#menuList a h2{font-size: 16px;}
+
+    /* header */
+    div#firstTop{
+        position: sticky; z-index: 99;
+        top: 0;
+        background-color: white;
+        width: 100%; height:48px; 
+        margin: 0 auto; text-align: right;
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+
+    div#firstTop a{font-size: 0;}
+    img#joinlogo{width: 37px;padding: 6px;}
+    nav#pcmenu div ul li.menuTitle{display: none;}
+   
+    nav#pcmenu  div li h1 img{
+        width:155px;
+        position: absolute; top: -41px; left: 50%; 
+        transform: translate(-50%);        
+    }
+    
+    nav#pcmenu {
+        position: sticky; top: 49px;
+        background-color: white;
+        z-index: 99;
+        width:100%; height:45px;  
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+
+    /* 메뉴바 */
+    ul.sub{display: none;}
+
+    nav#pcmenu  ul li.bottomMenu{ 
+        line-height: 45px;
+        display: inline-block;
+        width: 48%; text-align: center;  
+        border-left: 1px solid rgb(207, 207, 207);   
+    }
+
+    nav#pcmenu ul li a h2{color: #333; font-size: 1.7rem;}
+
+    nav#pcmenu  #sponsorButton{display: none;}
+
+   
+
+
+
+
+
+    /* -----------------------footer------------------------  */
+    footer{
+        width: 100%; height: auto; 
+    } 
+    /* info */
+    div#bottom div p{display: none; }
+    div#bottom div p#infoTop{
+        font-size: 14px; color: rgb(160, 158, 158);
+        display: block; text-align: center;
+        padding: 40px;
+        border-top: 1px solid rgb(207, 207, 207);
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+    div#companyInfo img{display: none;}
+    div#fast{display:none;}
+
+
+    /* connect */ 
+    div#connect ul{text-align: center; padding:50px 0; }
+    div#connect ul li{
+        display: inline-block;
+        text-align: center; margin-right: 5%;
+    }
+    div#connect ul li:last-child{margin-right: 0;}
+    div#connect ul li a{font-size: 0;}
+    div#connect ul li .fab{font-size: 30px; color: rgb(160, 158, 158);}
+    div#connect select{ display: none;}
+
+    div#bottomText{
+        text-align: center; font-size: 14px;
+        color: rgb(160, 158, 158);
+        margin-bottom: 50px;
+    }
+    div#bottomText a{color: rgb(160, 158, 158);}
+    
+}

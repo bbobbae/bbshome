@@ -1,0 +1,193 @@
+/* --------------------------PC 踰꾩졏 ----------------------------*/
+
+@media screen and (min-width:750px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 80%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 80%; height: 150px;  
+        margin: 0 auto;  
+        font-size: 30px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207);
+    }
+
+    /* step */
+    div#step{
+        width: 90%; height: 60px; 
+        box-sizing: border-box; 
+        margin: 90px auto 80px auto;
+    }
+    div#step ul{
+        width: 450px; height: 40px;
+        margin: 0 auto;
+        padding-left:15px
+    }
+    div#step ul li{
+        display: inline-block;
+        width: 31%;
+    }
+    div#step ul li span{ font-size: 23px;}
+    div#step ul li i:first-child{font-size: 27px; margin-right: 3%;}
+    div#step ul li i:last-child{font-size: 20px; padding:0 5%;}
+    div#step ul li .point{color: #ff6600;}
+
+
+    /* mainText */
+    div#mainText{width: 100%; height: 220px; text-align: center;}
+  
+    div#mainText span.topText{
+        text-align: center; 
+        font-size: 25px; 
+        padding-top: 10px;
+    }
+    div#mainText p{
+	    margin-top: 40px; 
+	    font-size:19px;
+    }
+
+
+
+    /* mainContent */
+    div#mainContent{
+        position: relative; 
+        width: 80%; height: 450px; 
+        background: url(../join/images/wv_wall_01_2560.jpg) no-repeat center center ; 
+        background-size: cover; 
+        margin: 0 auto 50px auto;
+    }
+    div#mainContent div{
+        transition: all ease 0.2s; 
+        color: white; 
+        box-sizing: border-box; 
+        padding: 8% 1% 0 1%; 
+        text-align: center; 
+        font-size: 22px; 
+        width: 30%; height: 350px; 
+        background-color: rgba(22, 22, 22, 0.644);
+        position: relative;
+    }
+    div#mainContent div:hover{box-shadow: 5px 5px 10px 5px rgba(49, 49, 49, 0.473);}
+    div#mainContent div:first-child{position: absolute; top: 50px; left: 90px;}
+    div#mainContent div:last-child{position: absolute; top: 50px; right: 90px;}
+
+    div#mainContent div a{
+        outline: 0; border: 0; 
+        font-size: 16px; 
+        display: block; 
+        margin: 0 auto; 
+        width: 70%; height: 50px; 
+        margin-top: 90px;
+        position: absolute;
+        bottom: 12%; left: 50%; transform: translateX(-50%);
+        background-color: white;
+        line-height: 50px;
+        color:#333;
+    }
+    div#mainContent div a:hover{ 
+        background-color: #ff6600;
+        color: rgb(225, 255, 255);
+    } 
+	
+	span#makeId{
+		font-weight:bold;
+		padding:0 2%;
+		font-size: 1.7rem;
+	}
+
+}
+
+
+
+/* --------------------------紐⑤컮�씪 踰꾩졏 ----------------------------*/
+
+@media screen and (max-width:749px){
+    /* contentWrap */
+    div#contentWrap{
+        width: 90%; height: auto; 
+        margin: 0 auto;
+    }
+    h3#contentTitle{
+        width: 100%; height: auto;  
+        margin: 0 auto;  
+        font-size: 28px; 
+        color: #ff6600; 
+        padding-top: 65px;
+        padding-bottom: 6px;
+        box-sizing: border-box; 
+        border-bottom:1px solid rgb(207,207,207);
+    }
+
+    /* step */
+    div#step{
+        width: 100%; height: 100%; 
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+    div#step ul{
+        width: 100%; height: 100%;
+        margin: 0 auto;
+    }
+    
+    ul li.step{display: none;}
+    div#step ul li span{ font-size: 18px;}
+    div#step ul li i:first-child{ 
+        font-size: 22px; 
+        color:#ff6600;
+        padding-right: 2%;
+    }
+    div#step ul li i:last-child{ display: none;}
+
+
+    /* mainText */
+    div#mainText{
+        width: 100%; height: 220px; 
+        text-align: center;
+    }
+    div#mainText span{
+        font-weight: bold;
+        display: block;
+        text-align: center; 
+        font-size: 22px; 
+        padding-top: 10px;
+    }
+    div#mainText p:last-child{text-align: center; padding-top: 40px; font-size: 1.5rem;}
+    
+
+    /* mainContent */
+    div#mainContent{
+        margin-bottom: 80px;
+    }
+    div#mainContent div{
+        width: 100%; height: 130px;
+        text-align: center;
+        font-size: 17px;
+        padding-top: 3%;  
+        border: 1px solid #ff6600;
+        position: relative;
+        margin-bottom: 30px;
+        
+    }
+
+    div#mainContent div a{
+        position: absolute;
+        bottom: 0; left: 0;
+        width:100%; height: 40px;
+        background: #ff6600;
+        font-size: 16px;
+        outline: 0;
+        border: 0;
+        color: white;
+        line-height: 40px;
+    }
+
+	span#makeId{
+		font-weight:bold;
+		padding:0 2%;
+		font-size: 1.2rem;
+	}
+}
